@@ -8,16 +8,6 @@ date: 2024-01-12 00:01:00 +0800
     <h2>Quantum Engineering in the Solid State</h2>
     <hr />
     <p>
-        <code>Showcase</code> is a page where you can show off almost anything you want. It can be the photo of your pets, your favorite books, your favorite projects, or anything else you want to show to the world.
-    </p>
-    <p>
-        You can create a new showcase item by creating a new file in the <code>_showcase</code> folder. It gives you the highest flexibility to customize the item using any HTML code.
-    </p>
-    <p>
-        Cards are ordered by the <code>date</code> field in the front matter in descending order. The <code>width</code> field is used to determine the width of the card, ranging from 1 to 12.
-        Layout is done by the <a href="https://masonry.desandro.com/" target="_blank">Masonry</a> library.
-    </p>
-    <p>
-        For a tidy layout, it is recommended to set the width of the cards to be either multiple of 3 or multiple of 4 for all cards, except for small badges that do not take up much space (width=1).
+        A central theme of our research is coherence in the solid state. In superconducting circuits, we investigate qubits and resonators with an emphasis on microscopic understanding of dielectric loss, particularly the role of defects in dissipation and decoherence. Our past work on spin defects in diamond established approaches to understanding and controlling color-center coherence, spin–photon interactions, and defect-induced dissipation. We build on these insights to engineer quantum circuits and hybrid quantum systems, including nanomechanical platforms and spin qubits for quantum control, transduction, and sensing.
     </p>
 </div>
