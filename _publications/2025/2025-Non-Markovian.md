@@ -1,6 +1,6 @@
 ---
 title:          "Non-Markovian dynamics of a superconducting qubit in a phononic bandgap"
-date:           2025-03
+date:           2025-01-07
 selected:       false
 pub:            "Nature Physics"
 # pub_pre:        "Submitted to "
