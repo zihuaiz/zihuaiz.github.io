@@ -3,9 +3,9 @@ secondary_name: ""
 navbar_name: "Zihuai Zhang"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- name: Incoming Assistant Professor
+- name: Department of Physics, Colorado School of Mines
+  #logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
 
 
 email: "zihuaiz@berkeley.edu"
@@ -36,17 +36,17 @@ portrait_caption: >-
 
 education:
 - name: Princeton University
-  logo: /assets/images/badges/MIT_Social_circle.png
+  #logo: /assets/images/badges/MIT_Social_circle.png
   position: Ph.D. in Electrical and Computer Engineering
   date: Aug. 2016 - Oct. 2022
 - name: University of Science and Technology of China
-  logo: /assets/images/badges/PKU_red.png
+  #logo: /assets/images/badges/PKU_red.png
   position: B.S. in Physics
   date: Sep. 2012 - Jul. 2016
 
 experience:
 - name: UC Berkeley and Berkeley Lab
-  logo: /assets/images/badges/PKU_red.png
+  #logo: /assets/images/badges/PKU_red.png
   position: Postdoctoral Scholar
   date: Nov. 2022 - Present
 
