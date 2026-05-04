@@ -21,7 +21,7 @@ authors:
   - Matthew L. Markham
   - Stephen A. Lyon
   - Adam Gali
-  - Nathalie P. De Leon
+  - Nathalie P. De Leon#
 links:
   Paper: https://doi.org/10.1103/PhysRevLett.125.237402
 ---
