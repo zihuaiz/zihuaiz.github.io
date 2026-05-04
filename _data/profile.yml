@@ -34,17 +34,17 @@ portrait_caption: >-
 
 education:
 - name: Princeton University
-  logo: /assets/images/badges/Princeton.png
+  logo: /assets/images/badges/empty.png
   position: Ph.D. in Electrical and Computer Engineering
   date: Aug. 2016 - Oct. 2022
 - name: University of Science and Technology of China
-  logo: /assets/images/badges/ustc.png
+  logo: /assets/images/badges/empty.png
   position: B.S. in Physics
   date: Sep. 2012 - Jul. 2016
 
 experience:
 - name: UC Berkeley and Berkeley Lab
-  logo: /assets/images/badges/UCB.png
+  logo: /assets/images/badges/empty.png
   position: Postdoctoral Scholar
   date: Nov. 2022 - Present
 
