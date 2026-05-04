@@ -8,8 +8,8 @@ pub:            "Physical Review Letters"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2023"
 
-abstract: >-
-  When the cover image is not provided, it will generate a random colorful bubble images as the cover image using the <code>bubble_visual_hash.js</code> script.
+# abstract: >-
+# When the cover image is not provided, it will generate a random colorful bubble images as the cover image using the <code>bubble_visual_hash.js</code> script.
 # cover:          /assets/images/covers/cover3.jpg
 authors:
   - Zi-Huai Zhang
@@ -26,7 +26,7 @@ authors:
   - Matthew L. Markham
   - Robert J. Cava
   - Patrick Maletinsky
-  - Nathalie P. de Leon*
+  - Nathalie P. de Leon#
 links:
   Paper: https://doi.org/10.1103/PhysRevLett.130.166902
 ---
