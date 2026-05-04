@@ -48,13 +48,14 @@
 {%- endfor -%}
 
 {%- if has_eq_contrib or has_corresponding %}
-<mark>(
+<span class="text-muted">(
     {%- if has_eq_contrib -%}
-        * <i> equal contribution</i>
+    * <i> equal contribution</i>
     {%- endif -%}
+
     {%- if has_corresponding -%}
-        {%- if has_eq_contrib -%}, {% endif -%}
-        <sup>#</sup> <i> corresponding author</i>
+    {%- if has_eq_contrib -%}, {% endif -%}
+    <sup>#</sup> <i> corresponding author</i>
     {%- endif -%}
-)</mark>
+)</span>
 {%- endif -%}
