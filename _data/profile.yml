@@ -44,7 +44,7 @@ education:
 
 experience:
 - name: UC Berkeley and Berkeley Lab
-  logo: ""
+  logo: /assets/images/badges/UCB.png
   position: Postdoctoral Scholar
   date: Nov. 2022 - Present
 
