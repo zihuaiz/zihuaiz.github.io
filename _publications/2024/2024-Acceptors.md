@@ -1,7 +1,7 @@
 ---
 title:          "Acceptor-induced bulk dielectric loss in superconducting circuits on silicon"
 date:           2024-10-01
-selected:       false
+selected:       true
 pub:            "Physical Review X"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
