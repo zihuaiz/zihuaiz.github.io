@@ -1,6 +1,6 @@
 ---
 title:          "Entanglement of a nuclear spin qubit register in silicon photonics"
-date:           2025-12-09
+date:           2026-01-01
 selected:       false
 pub:            "Nature Nanotechnology"
 # pub_pre:        "Submitted to "
