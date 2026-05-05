@@ -108,5 +108,5 @@ body {
 
   background:
     linear-gradient(rgba(8, 12, 18, 0.86), rgba(8, 12, 18, 0.86)),
-    url("../images/Background.png") center center / cover fixed no-repeat;
+    url("../images/bg.png") center center / cover fixed no-repeat;
 }
