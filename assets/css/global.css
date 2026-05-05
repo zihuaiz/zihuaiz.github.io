@@ -97,3 +97,13 @@ div.lazy {
   width: 68px;
   object-fit: cover;
 }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  padding-top: 5.0rem;
+
+  background:
+    linear-gradient(rgba(8, 12, 18, 0.86), rgba(8, 12, 18, 0.86)),
+    url("../images/Background.png") center center / cover fixed no-repeat;
+}
