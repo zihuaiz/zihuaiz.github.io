@@ -14,20 +14,10 @@ date: 2024-01-13 00:01:00 +0800
     </div>
 
     <div class="col-md-9">
-      <h2>Research Direction Title</h2>
-      <p class="text-muted mb-2">
-        Short subtitle or keywords, e.g. superconducting circuits · dopant spins · nanomechanics
-      </p>
+      <h2>Nanomechanics</h2>
 
       <p>
-        Write a concise description of this research direction here. This section can describe
-        the main scientific question, why it matters, and what experimental platforms or tools
-        you use.
-      </p>
-
-      <p>
-        You can add another short paragraph about future directions, collaborations, or the
-        broader motivation.
+      Our group explores mechanical systems as coherent resources for quantum information science. By integrating nanomechanical and micromechanical resonators with superconducting and spin platforms, we study how mechanical motion can be used to store, manipulate, and transduce quantum information across disparate quantum systems. This work spans high-coherence mechanical resonators, quantum transduction, and MEMS-enabled quantum device control, combining nanofabrication, cryogenic measurements, and microwave engineering to develop scalable hybrid quantum architectures for communication, sensing, and information processing.
       </p>
     </div>
 
