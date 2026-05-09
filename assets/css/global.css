@@ -108,6 +108,15 @@ body {
   padding-top: 5.0rem;
 
   background:
-    linear-gradient(rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.18)),
+    linear-gradient(rgba(18, 24, 32, 0.25), rgba(18, 24, 32, 0.25)),
     url("../images/bg.png") center center / cover fixed no-repeat;
+}
+
+.badge-publication {
+  font-size: 100%;
+  background-color: rgba(255, 255, 255, 0.92) !important;
+  color: #1f2933 !important;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
