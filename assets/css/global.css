@@ -108,6 +108,6 @@ body {
   padding-top: 5.0rem;
 
   background:
-    linear-gradient(rgba(18, 24, 32, 0.50), rgba(18, 24, 32, 0.50)),
+    linear-gradient(rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.18)),
     url("../images/bg.png") center center / cover fixed no-repeat;
 }
