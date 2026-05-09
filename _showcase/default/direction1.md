@@ -17,7 +17,11 @@ date: 2024-01-13 00:01:00 +0800
       <h2>Nanomechanics</h2>
 
       <p>
-      Our group explores mechanical systems as coherent resources for quantum information science. By integrating nanomechanical and micromechanical resonators with superconducting and spin platforms, we study how mechanical motion can be used to store, manipulate, and transduce quantum information across disparate quantum systems. This work spans high-coherence mechanical resonators, quantum transduction, and MEMS-enabled quantum device control, combining nanofabrication, cryogenic measurements, and microwave engineering to develop scalable hybrid quantum architectures for communication, sensing, and information processing.
+      Our group explores mechanical systems as coherent resources for quantum information science. By integrating nanomechanical and micromechanical resonators with superconducting and spin platforms, we study how mechanical motion can be used to store, manipulate, and transduce quantum information across disparate quantum systems.
+      </p>
+      
+      <p>
+      This direction spans high-coherence mechanical resonators, quantum transduction, and MEMS-enabled quantum device control, combining nanofabrication, cryogenic measurements, and microwave engineering to develop scalable hybrid quantum architectures for communication, sensing, and information processing.
       </p>
     </div>
 
