@@ -14,7 +14,7 @@ date: 2024-01-13 00:01:00 +0800
     </div>
 
     <div class="col-md-9">
-      <h2>Nanomechanics</h2>
+      <h2 class="research-direction-title">Nanomechanics</h2>
 
       <p>
       Our group explores mechanical systems as coherent resources for quantum information science. By integrating nanomechanical and micromechanical resonators with superconducting and spin platforms, we study how mechanical motion can be used to store, manipulate, and transduce quantum information across disparate quantum systems.
