@@ -8,7 +8,7 @@ date: 2025-01-13 00:01:00 +0800
   <div class="row align-items-center">
     
     <div class="col-md-3 mb-3 mb-md-0">
-      <img src="{{ '/assets/images/research/BulkDefects.png' | relative_url }}"
+      <img src="{{ '/assets/images/research/HighImpedance.png' | relative_url }}"
            class="img-fluid rounded-xl research-direction-img"
            alt="Research direction image">
     </div>
@@ -17,7 +17,7 @@ date: 2025-01-13 00:01:00 +0800
       <h2>Hybrid Quantum Systems</h2>
 
       <p>
-      My research focuses on understanding microscopic defects that limit the coherence and stability of quantum devices. By combining superconducting circuits, nanomechanical systems, and multimodal spectroscopic techniques, I study how defects interact with electromagnetic and mechanical excitations to produce dielectric loss, frequency noise, and decoherence. These efforts aim to reveal the microscopic origins of loss in quantum hardware and establish new spectroscopic approaches for probing defect dynamics across hybrid quantum systems.
+      My research explores new quantum architectures that combine the complementary strengths of disparate quantum platforms, including spins, superconducting circuits, and mechanical systems. By developing novel circuit elements, coupling schemes, and quantum interfaces, I aim to engineer hybrid systems that integrate long coherence, strong interactions, and flexible control within a unified architecture. These efforts seek to establish scalable and versatile quantum hardware for information processing, communication, and sensing.
       </p>
     </div>
 
