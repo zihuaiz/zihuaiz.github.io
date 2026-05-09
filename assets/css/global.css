@@ -109,7 +109,7 @@ body {
 
   background:
     linear-gradient(rgba(18, 24, 32, 0.25), rgba(18, 24, 32, 0.25)),
-    url("../images/bg.png") center center / cover fixed no-repeat;
+    url("../images/bg.jpeg") center center / cover fixed no-repeat;
 }
 
 .badge-publication {
