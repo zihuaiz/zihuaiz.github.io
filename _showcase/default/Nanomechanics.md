@@ -14,14 +14,14 @@ date: 2026-05-06 00:01:00 +0800
     </div>
 
     <div class="col-md-9">
-      <h2 class="research-direction-title">Nanomechanics</h2>
+      <h2 class="research-direction-title">Quantum Nanomechanics</h2>
 
       <p>
-      Our group explores mechanical systems as coherent resources for quantum information science. By integrating nanomechanical and micromechanical resonators with superconducting and spin platforms, we study how mechanical motion can be used to store, manipulate, and transduce quantum information across disparate quantum systems.
+      Mechanical resonators provide a powerful platform for quantum science, with applications ranging from precision sensing to quantum transduction and hybrid quantum information processing. Advances in nanofabrication and electromechanics now enable mechanical systems to operate deep in the quantum regime and interface coherently with other quantum platforms.
       </p>
       
       <p>
-      This direction spans high-coherence mechanical resonators, quantum transduction, and MEMS-enabled quantum device control, combining nanofabrication, cryogenic measurements, and microwave engineering to develop scalable hybrid quantum architectures for communication, sensing, and information processing.
+      Our research focuses on mechanical systems operating in the quantum regime. We develop superconducting electromechanical devices and borrow concepts from the MEMS community to engineer coherent control, tunability, and coupling in nanomechanical systems. By integrating mechanics with superconducting quantum circuits, we explore new approaches for quantum transduction and hybrid quantum interfacing.
       </p>
     </div>
 
