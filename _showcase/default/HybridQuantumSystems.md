@@ -1,7 +1,7 @@
 ---
 show: true
 width: 12
-date: 2025-01-14 00:01:00 +0800
+date: 2026-05-05 00:01:00 +0800
 ---
 
 <div class="research-direction-card p-4">
