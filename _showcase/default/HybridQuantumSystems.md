@@ -14,10 +14,14 @@ date: 2026-05-05 00:01:00 +0800
     </div>
 
     <div class="col-md-9">
-      <h2 class="research-direction-title">Hybrid Quantum Systems</h2>
+      <h2 class="research-direction-title">Hybrid Quantum Architectures</h2>
 
       <p>
-      My research explores new quantum architectures that combine the complementary strengths of disparate quantum platforms, including spins, superconducting circuits, and mechanical systems. By developing novel circuit elements, coupling schemes, and quantum interfaces, I aim to engineer hybrid systems that integrate long coherence, strong interactions, and flexible control within a unified architecture. These efforts seek to establish scalable and versatile quantum hardware for information processing, communication, and sensing.
+      Different quantum platforms offer complementary capabilities, ranging from fast quantum control to long-lived coherence and coherent interfacing between distinct physical systems.
+      </p>
+
+      <p>
+      Our group investigates hybrid architectures based on superconducting circuits, spins, and nanomechanical systems. We explore novel circuit elements, coupling schemes, and engineered interactions for coherent quantum control, transduction, and information transfer across different quantum platforms.
       </p>
     </div>
 
