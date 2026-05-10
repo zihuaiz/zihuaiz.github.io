@@ -8,7 +8,10 @@ date: 2026-05-08 00:01:00 +0800
     <h2>Quantum Engineering in the Solid State</h2>
     <hr />
     <p>
-        A central theme of our research is coherence in the solid state. In superconducting circuits, we investigate qubits and resonators with an emphasis on microscopic understanding of dielectric loss, particularly the role of defects in dissipation and decoherence. Our past work on spin defects in diamond established approaches to understanding and controlling color-center coherence, spin–photon interactions, and defect-induced dissipation. We build on these insights to engineer quantum circuits and hybrid quantum systems, including nanomechanical platforms and spin qubits for quantum control, transduction, and sensing.
+        A central theme of our research is coherence in the solid state: understanding how microscopic interactions give rise to decoherence and engineering quantum systems that maintain coherence at the device level. Our past work on spin defects in diamond established approaches for studying and controlling color-center coherence, spin–photon interactions, and defect-induced dissipation in solid-state quantum systems.
+    </p>
+    <p>
+        Building on these insights, we investigate superconducting, mechanical, and spin-based quantum systems with an emphasis on loss, noise, and coherent quantum control. Our work explores quantum interfaces, transduction mechanisms, and hybrid architectures that enable coherent interactions across different physical platforms for quantum sensing and information processing.
     </p>
     <p>
         See below for current research directions.
