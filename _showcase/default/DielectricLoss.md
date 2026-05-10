@@ -17,8 +17,13 @@ date: 2025-05-07 00:01:00 +0800
       <h2 class="research-direction-title">Quantum Defect Spectroscopy</h2>
 
       <p>
-      My research focuses on understanding microscopic defects that limit the coherence and stability of quantum devices. By combining superconducting circuits, nanomechanical systems, and multimodal spectroscopic techniques, I study how defects interact with electromagnetic and mechanical excitations to produce dielectric loss, frequency noise, and decoherence. These efforts aim to reveal the microscopic origins of loss in quantum hardware and establish new spectroscopic approaches for probing defect dynamics across hybrid quantum systems.
+      Microscopic material defects are a major source of loss and noise in superconducting circuits and other solid-state quantum devices. Understanding how these defects interact with quantum systems is essential for improving coherence and enabling scalable quantum technologies.
       </p>
+      
+      <p>
+      Our group develops multimodal defect spectroscopy techniques to study microscopic defects in superconducting circuits and nanomechanical devices. By combining low-temperature measurements with superconducting and electromechanical platforms, we aim to understand the microscopic origins of decoherence. Ultimately, we seek to move from ensemble measurements toward coherent control of single defects and their interactions with quantum devices.
+      </p>
+      
     </div>
 
   </div>
