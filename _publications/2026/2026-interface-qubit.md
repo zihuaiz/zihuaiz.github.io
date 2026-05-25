@@ -2,7 +2,7 @@
 title:          "Interface Piezoelectric Loss in Superconducting Qubits"
 date:           2026-05-15
 selected:       false
-pub:            "arXiv"
+pub:            "arXiv "
 # pub_pre:        "Submitted to "
 pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
