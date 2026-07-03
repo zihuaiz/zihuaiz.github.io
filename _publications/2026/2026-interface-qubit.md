@@ -19,7 +19,6 @@ authors:
   - Leo Sementilli
   - Zi-Huai Zhang
   - Adam Schwartzberg
-  - Zi-Huai Zhang
   - Alp Sipahigil#
 links:
   Paper: https://doi.org/10.48550/arXiv.2605.15554
