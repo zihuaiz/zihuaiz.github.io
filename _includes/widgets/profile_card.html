@@ -40,8 +40,18 @@
                             {{ position.name }}<br/>
                             {% endfor %}
                         </div>
+                        <div class="research-identity mt-3">
+                            Experimental quantum systems <span>·</span> superconducting circuits <span>·</span> nanomechanics <span>·</span> defects in solids
+                        </div>
                         <div class="text-profile-bio mt-3" {% if site.data.profile.short_bio_text_justify %}style="text-align: justify;"{% endif %}>
                             {{ site.data.profile.short_bio }}
+                        </div>
+                        <div class="recruiting-callout mt-4">
+                            <div class="recruiting-label">Recruiting</div>
+                            <div>
+                                <strong>We are actively recruiting PhD students starting in Spring and Fall 2027.</strong>
+                                If you are excited by experimental quantum science and creative approaches to quantum devices and systems, I would be excited to hear from you.
+                            </div>
                         </div>
                         {% if site.data.profile.cv_link %}
                             <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
