@@ -23,3 +23,5 @@ authors:
 links:
   Paper: https://doi.org/10.48550/arXiv.2605.15554
 ---
+
+<!-- Rebuild trigger: 2026-07-03 -->
