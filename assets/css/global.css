@@ -154,9 +154,13 @@ body {
 }
 
 .news-year {
-  min-width: 3.4rem;
   color: #334155;
+  font-size: 1.02rem;
   font-weight: 700;
+}
+
+.news-year-items {
+  padding-left: 0;
 }
 
 .news-title {
