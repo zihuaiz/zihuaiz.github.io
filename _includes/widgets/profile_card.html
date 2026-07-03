@@ -53,9 +53,6 @@
                                 If you are excited by experimental quantum science and creative approaches to quantum devices and systems, I would be excited to hear from you.
                             </div>
                         </div>
-                        {% if site.data.profile.cv_link %}
-                            <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
-                        {% endif %}
                     </div>
         
                 </div>
@@ -65,6 +62,12 @@
                         <a class="pr-3" href="mailto:{{ site.data.profile.email | encode_email }}">
                             <i class="fas fa-at"></i> <span class="email-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span>
                         </a>
+
+                        {% if site.data.profile.cv_link %}
+                        <a class="pr-3 no-break" target="_blank" href="{{ site.data.profile.cv_link | relative_url }}">
+                            <i class="fas fa-file-alt"></i> Curriculum Vitae
+                        </a>
+                        {% endif %}
 
                         {% if site.data.profile.gscholar %}
                         {%- if site.data.profile.gscholar contains 'scholar.google' -%}
