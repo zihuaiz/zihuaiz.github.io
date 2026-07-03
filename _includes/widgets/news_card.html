@@ -4,16 +4,16 @@
     <h5 class="news-card-title p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i> News</h5>
     <div class="news-list px-3 pb-2">
         {% for year in news_by_year %}
-        <div class="media news-year-block py-2 {% if not_first -%}border-top border-gray{%- endif %}">
+        <div class="news-year-block py-2 {% if not_first -%}border-top border-gray{%- endif %}">
             {% assign not_first = true %}
-            <div class="news-year mr-3 my-1">{{ year.name }}</div>
-            <div class="media-body">
-                {% for item in year.items %}
-                <div class="news-item my-2 d-flex align-items-start">
-                    <div class="news-title pr-3">{{ item.title }}</div>
-                    <div class="news-date ml-auto mt-1 no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
-                </div>
-                {% endfor %}
+            <div class="news-year mb-1">{{ year.name }}</div>
+            <div class="news-year-items">
+            {% for item in year.items %}
+            <div class="news-item my-2 d-flex align-items-start">
+                <div class="news-title pr-3">{{ item.title }}</div>
+                <div class="news-date ml-auto mt-1 no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
+            </div>
+            {% endfor %}
             </div>
         </div>
         {% endfor %}
