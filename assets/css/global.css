@@ -141,3 +141,40 @@ body {
   color: #f8fafc;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.55);
 }
+
+.news-card-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.news-list {
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
+.news-year {
+  min-width: 3.4rem;
+  color: #334155;
+  font-weight: 700;
+}
+
+.news-title {
+  color: #1f2933;
+  font-weight: 500;
+}
+
+.news-date {
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 575.98px) {
+  .news-item {
+    display: block !important;
+  }
+
+  .news-date {
+    margin-left: 0 !important;
+  }
+}
