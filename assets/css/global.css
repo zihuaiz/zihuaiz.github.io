@@ -136,3 +136,8 @@ body {
   font-weight: 700;
   margin-bottom: 0.35rem;
 }
+
+.publication-year-label {
+  color: #f8fafc;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.55);
+}
