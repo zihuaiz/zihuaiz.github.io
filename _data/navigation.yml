@@ -5,5 +5,7 @@ pages:
   url: /
 - name: Research
   url: /research
+- name: Opportunities
+  url: /opportunities
 - name: Publications
   url: /publications
