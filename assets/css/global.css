@@ -218,6 +218,94 @@ body {
   padding-left: 0;
 }
 
+.opportunities-page h1 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.opportunities-page h2 {
+  color: #111827;
+  font-size: 1.35rem;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+}
+
+.opportunities-page h3 {
+  color: #1e293b;
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.opportunities-hero {
+  max-width: 860px;
+}
+
+.opportunity-status,
+.opportunity-section {
+  border: 1px solid rgba(100, 116, 139, 0.16);
+  border-radius: 0.8rem;
+  background: rgba(248, 250, 252, 0.82);
+  color: #1e293b;
+}
+
+.opportunity-status {
+  padding: 1rem 1.15rem;
+  border-left: 4px solid #475569;
+}
+
+.opportunity-status h2 {
+  margin-bottom: 0;
+}
+
+.opportunity-section {
+  padding: 1.25rem;
+}
+
+.opening-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.opening-item {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.opening-role {
+  color: #0f172a;
+  font-weight: 800;
+}
+
+.opening-detail {
+  color: #334155;
+}
+
+.opportunity-list {
+  padding-left: 1.15rem;
+}
+
+.opportunity-list li {
+  margin-bottom: 0.55rem;
+}
+
+@media (max-width: 767.98px) {
+  .opportunities-page .card-body {
+    padding: 1.5rem !important;
+  }
+
+  .opportunities-page h1 {
+    font-size: 1.85rem;
+  }
+
+  .opening-item {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+}
+
 .news-title {
   color: #1f2933;
   font-weight: 500;
