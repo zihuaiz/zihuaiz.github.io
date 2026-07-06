@@ -194,7 +194,31 @@ body {
 
 .publication-year-label {
   color: #f8fafc;
+  font-size: 1.65rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.55);
+}
+
+
+.publications-page .publication-year-card {
+  border: 1px solid rgba(100, 116, 139, 0.12);
+}
+
+.publications-page .publication-title {
+  color: #1f2933;
+  font-weight: 700 !important;
+}
+
+.publications-page #navbar-year .nav-link {
+  color: rgba(248, 250, 252, 0.9);
+  border-radius: 0.55rem;
+  font-weight: 700;
+}
+
+.publications-page #navbar-year .nav-link.active {
+  background: rgba(248, 250, 252, 0.9);
+  color: #334155;
 }
 
 .news-card-title {
