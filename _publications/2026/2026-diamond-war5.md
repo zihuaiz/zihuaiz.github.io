@@ -4,8 +4,7 @@ date:           2026-08-13
 selected:       false
 pub:            "Physical Review B"
 # pub_pre:        "Submitted to "
-pub_post:       " 114, 074105"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Editors&apos; Suggestion</span>'
+pub_last:       ' <span class="badge badge-pill badge-success">Editors&apos; Suggestion</span>'
 pub_date:       "2026"
 
 
