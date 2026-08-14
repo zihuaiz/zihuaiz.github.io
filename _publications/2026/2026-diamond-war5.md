@@ -1,11 +1,11 @@
 ---
-title:          "A defect in diamond with millisecond-scale spin relaxation time at room temperature"
-date:           2026-03-07
+title:          "Defect in diamond with millisecond-scale spin relaxation time at room temperature"
+date:           2026-08-13
 selected:       false
-pub:            "arXiv"
+pub:            "Physical Review B"
 # pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
-# pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+pub_post:       " 114, 074105"
+pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Editors&apos; Suggestion</span>'
 pub_date:       "2026"
 
 
@@ -33,5 +33,6 @@ authors:
   - Stephen A. Lyon
   - Nathalie P. de Leon#
 links:
-  Paper: https://doi.org/10.48550/arXiv.2603.07265
+  Paper: https://doi.org/10.1103/3dcd-mkcq
+  Physics: https://physics.aps.org/articles/v19/s105
 ---
