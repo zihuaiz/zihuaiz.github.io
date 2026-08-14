@@ -13,7 +13,7 @@
 
         <p class="mt-0 mb-0 small text-muted lh-125 publication-meta-row">
             <span class="publication-ref">
-                {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}
+                {{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }}
 
                 {% for link in item.links %}
                 <span class="mx-1">·</span>
@@ -25,6 +25,8 @@
                     {% endif %}
                 </span>
                 {% endfor %}
+
+                {{ item.pub_last }}
             </span>
 
             <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span>

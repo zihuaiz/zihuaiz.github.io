@@ -4,7 +4,7 @@ date:           2026-08-13
 selected:       false
 pub:            "Physical Review B"
 # pub_pre:        "Submitted to "
-pub_last:       ' <span class="badge badge-pill badge-success">Editors&apos; Suggestion</span>'
+pub_last:       ' <span class="mx-1">·</span> <span class="font-weight-bold">Editors&apos; Suggestion</span>'
 pub_date:       "2026"
 
 
