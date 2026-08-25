@@ -259,6 +259,38 @@ body {
   font-weight: 700;
 }
 
+.teaching-page h1 {
+  font-size: 2.25rem;
+}
+
+.teaching-page h2 {
+  font-size: 1.45rem;
+  margin-bottom: 0.35rem;
+}
+
+.course-card {
+  border: 1px solid rgba(100, 116, 139, 0.14);
+}
+
+.course-meta {
+  color: #64748b;
+  font-weight: 700;
+}
+
+.course-description {
+  color: #334155;
+  font-size: 1.04rem;
+  line-height: 1.65;
+}
+
+.course-access-note {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: #475569;
+  font-size: 0.92rem;
+}
+
 .opportunities-hero {
   max-width: 860px;
 }
