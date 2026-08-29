@@ -579,13 +579,13 @@ a:hover {
 .lab-system-map {
   position: relative;
   width: min(100%, 380px);
-  height: 330px;
+  height: 340px;
   margin: auto;
 }
 
 .system-line {
   position: absolute;
-  top: 50%;
+  top: 54.4%;
   left: 50%;
   z-index: 1;
   height: 1px;
@@ -593,12 +593,13 @@ a:hover {
   transform-origin: left center;
 }
 
-.system-line-a { width: 120px; transform: rotate(-90deg); }
-.system-line-b { width: 174px; transform: rotate(141deg); }
-.system-line-c { width: 174px; transform: rotate(39deg); }
+.system-line-a { width: 150px; transform: rotate(-90deg); }
+.system-line-b { width: 150px; transform: rotate(141deg); }
+.system-line-c { width: 150px; transform: rotate(39deg); }
 
 .system-node {
   position: absolute;
+  z-index: 2;
   display: grid;
   place-items: center;
   width: 92px;
@@ -614,9 +615,9 @@ a:hover {
 }
 
 .system-node-main {
-  top: 50%;
+  top: 54.4%;
   left: 50%;
-  z-index: 2;
+  z-index: 3;
   width: 138px;
   height: 138px;
   border-color: var(--lab-gold);
@@ -626,9 +627,9 @@ a:hover {
   transform: translate(-50%, -50%);
 }
 
-.system-node-a { top: 0; left: 50%; transform: translateX(-50%); }
-.system-node-b { bottom: 10px; left: 8px; }
-.system-node-c { right: 8px; bottom: 10px; }
+.system-node-a { top: -11px; left: 50%; transform: translateX(-50%); }
+.system-node-b { bottom: 15px; left: 27px; }
+.system-node-c { right: 27px; bottom: 15px; }
 
 .home-section {
   margin-top: clamp(2.5rem, 4vw, 3.75rem);
@@ -873,9 +874,16 @@ a:hover {
   body { padding-top: 5rem; }
   .brand-name { max-width: 220px; font-size: 0.85rem; }
   .lab-hero { padding: 2.4rem 1.5rem; }
-  .lab-system-map { height: 285px; }
+  .lab-system-map { height: 300px; }
+  .system-line { top: 55%; }
+  .system-line-a,
+  .system-line-b,
+  .system-line-c { width: 130px; }
   .system-node { width: 78px; height: 78px; }
-  .system-node-main { width: 122px; height: 122px; }
+  .system-node-main { top: 55%; width: 122px; height: 122px; }
+  .system-node-a { top: -4px; }
+  .system-node-b { left: 10px; bottom: 7px; }
+  .system-node-c { right: 10px; bottom: 7px; }
   .section-heading-row { display: block; }
   .section-link { display: inline-block; margin-top: 0.8rem; }
   .research-preview-content h3 { min-height: 0; }
