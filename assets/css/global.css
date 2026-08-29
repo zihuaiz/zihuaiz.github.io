@@ -874,21 +874,7 @@ a:hover {
   body { padding-top: 5rem; }
   .brand-name { max-width: 220px; font-size: 0.85rem; }
   .lab-hero { padding: 2.4rem 1.5rem; }
-  .lab-system-map { height: 240px; }
-  .lab-system-map-inner {
-    height: 300px;
-    transform: scale(0.8);
-    transform-origin: top center;
-  }
-  .system-line { top: 55%; }
-  .system-line-a { width: 92px; }
-  .system-line-b,
-  .system-line-c { width: 98px; }
-  .system-node { width: 78px; height: 78px; }
-  .system-node-main { top: 55%; width: 122px; height: 122px; }
-  .system-node-a { top: -4px; }
-  .system-node-b { left: 10px; bottom: 7px; }
-  .system-node-c { right: 10px; bottom: 7px; }
+  .hero-system-column { display: none; }
   .section-heading-row { display: block; }
   .section-link { display: inline-block; margin-top: 0.8rem; }
   .research-preview-content h3 { min-height: 0; }
