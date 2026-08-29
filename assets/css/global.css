@@ -665,6 +665,7 @@ a:hover {
 
 .section-heading-row h2,
 .lab-principles h2,
+.home-lower-grid .news-card-title,
 .pi-strip h2,
 .people-page h1,
 .people-page h2 {
@@ -676,8 +677,9 @@ a:hover {
 }
 
 .section-heading-row h2,
-.lab-principles h2 {
-  font-size: clamp(2rem, 4vw, 3rem);
+.lab-principles h2,
+.home-lower-grid .news-card-title {
+  font-size: clamp(1.8rem, 2.6vw, 2.2rem);
 }
 
 .section-link,
@@ -733,10 +735,6 @@ a:hover {
   border-bottom: 1px solid var(--lab-line);
 }
 
-.lab-principles h2 {
-  font-size: clamp(1.6rem, 2.5vw, 2.15rem);
-}
-
 .lab-principles p {
   max-width: 1000px;
   margin: 0.75rem 0 0;
@@ -767,6 +765,19 @@ a:hover {
 
 .home-lower-grid .news-card {
   margin-top: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+.home-lower-grid .news-card-heading {
+  padding: 0 0 1.1rem;
+  border-bottom: 0;
+}
+
+.home-lower-grid .news-list {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 
 .news-card,
@@ -785,10 +796,6 @@ a:hover {
 
 .news-card-title {
   margin-top: 0.35rem;
-  color: var(--lab-navy);
-  font-family: "Source Sans 3", sans-serif;
-  font-size: 1.8rem;
-  font-weight: 600;
 }
 
 .news-year {
