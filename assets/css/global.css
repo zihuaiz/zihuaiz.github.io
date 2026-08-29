@@ -614,7 +614,7 @@ a:hover {
 .system-node-c { right: 8px; bottom: 10px; }
 
 .home-section {
-  margin-top: clamp(4rem, 8vw, 7rem);
+  margin-top: clamp(2.75rem, 5vw, 4.5rem);
 }
 
 .section-heading-row {
@@ -731,7 +731,7 @@ a:hover {
 }
 
 .home-lower-grid {
-  margin-top: clamp(4rem, 8vw, 7rem);
+  margin-top: clamp(2.75rem, 5vw, 4.5rem);
 }
 
 .home-lower-grid .news-card {
@@ -873,7 +873,7 @@ a:hover {
   margin: 0.55rem 0 1rem;
   color: var(--lab-navy);
   font-family: "Fira Sans", sans-serif;
-  font-size: clamp(3rem, 7vw, 5.4rem);
+  font-size: clamp(2.5rem, 5vw, 4.2rem);
   font-weight: 600;
   letter-spacing: -0.05em;
   line-height: 1;
