@@ -906,7 +906,7 @@ a:hover {
   margin: 0.55rem 0 1rem;
   color: var(--lab-navy);
   font-family: "Source Sans 3", sans-serif;
-  font-size: clamp(2.5rem, 5vw, 4.2rem);
+  font-size: clamp(2rem, 3.5vw, 3.15rem);
   font-weight: 600;
   letter-spacing: -0.035em;
   line-height: 1.04;
