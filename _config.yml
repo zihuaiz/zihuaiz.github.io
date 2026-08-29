@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://zihuaiz.github.io"
+url: "https://zhangquantumlab.com"
 title: "Zhang Hybrid Quantum Systems Lab"
 description: "We engineer coherent solid-state quantum systems using superconducting circuits, nanomechanics, and quantum defects at Colorado School of Mines."
 

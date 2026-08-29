@@ -16,6 +16,7 @@
     <meta name="twitter:title" content="{{ document_title | strip }}">
     <meta name="twitter:description" content="{{ page.description | default: site.description }}">
     <meta name="twitter:image" content="{{ site.url }}{{ '/assets/images/og.png' | relative_url }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
     <link rel="icon" type="image/jpeg" href="{{ '/assets/images/Bar.jpg' | relative_url }}">
 
     <!-- Stylesheets -->
