@@ -1160,6 +1160,46 @@ a:hover {
   font-weight: 700;
 }
 
+.contact-map-panel {
+  margin-bottom: 3rem;
+  border: 1px solid var(--lab-line);
+  background: var(--lab-white);
+}
+
+.contact-map-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1.5rem 1.75rem;
+}
+
+.contact-map-heading h2 {
+  margin: 0.4rem 0 0;
+  color: var(--lab-navy);
+  font-size: clamp(1.35rem, 2.5vw, 1.8rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.contact-map-heading a {
+  flex: 0 0 auto;
+  font-weight: 700;
+}
+
+.contact-map-frame {
+  height: 420px;
+  border-top: 1px solid var(--lab-line);
+  background: #eef1f3;
+}
+
+.contact-map-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .contact-visit-band {
   display: flex;
   align-items: center;
@@ -1185,6 +1225,19 @@ a:hover {
 }
 
 @media (max-width: 767.98px) {
+  .contact-map-heading {
+    display: block;
+  }
+
+  .contact-map-heading a {
+    display: inline-block;
+    margin-top: 0.8rem;
+  }
+
+  .contact-map-frame {
+    height: 340px;
+  }
+
   .contact-visit-band {
     display: block;
   }
