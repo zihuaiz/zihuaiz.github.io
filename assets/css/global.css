@@ -760,7 +760,7 @@ a:hover {
 }
 
 .home-lower-grid {
-  margin-top: clamp(2.5rem, 4vw, 3.75rem);
+  margin-top: 0;
   padding-top: clamp(2.5rem, 4vw, 3.75rem);
   border-top: 1px solid var(--lab-line);
 }
