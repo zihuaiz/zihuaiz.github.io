@@ -713,16 +713,9 @@ a:hover {
   padding: 1.45rem;
 }
 
-.research-number {
-  color: var(--lab-teal);
-  font-family: "Source Code Pro", monospace;
-  font-size: 0.76rem;
-  font-weight: 700;
-}
-
 .research-preview-content h3 {
   min-height: 0;
-  margin: 0.55rem 0 0.25rem;
+  margin: 0 0 0.25rem;
   color: var(--lab-navy);
   font-family: "Fira Sans", sans-serif;
   font-size: 1.3rem;
