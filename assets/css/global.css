@@ -608,9 +608,9 @@ a:hover {
   transform-origin: left center;
 }
 
-.system-line-a { width: 150px; transform: rotate(-90deg); }
-.system-line-b { width: 150px; transform: rotate(141deg); }
-.system-line-c { width: 150px; transform: rotate(39deg); }
+.system-line-a { width: 103px; transform: rotate(-90deg); }
+.system-line-b { width: 103px; transform: rotate(141deg); }
+.system-line-c { width: 103px; transform: rotate(39deg); }
 
 .system-node {
   position: absolute;
@@ -891,9 +891,9 @@ a:hover {
   .lab-hero { padding: 2.4rem 1.5rem; }
   .lab-system-map { height: 300px; }
   .system-line { top: 55%; }
-  .system-line-a,
+  .system-line-a { width: 89px; }
   .system-line-b,
-  .system-line-c { width: 130px; }
+  .system-line-c { width: 98px; }
   .system-node { width: 78px; height: 78px; }
   .system-node-main { top: 55%; width: 122px; height: 122px; }
   .system-node-a { top: -4px; }
