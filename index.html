@@ -10,9 +10,10 @@ container_class: container-xl
   <div class="row align-items-center">
     <div class="col-lg-7">
       <div class="lab-kicker">Colorado School of Mines · Department of Physics</div>
-      <h1>Engineering coherence in solid-state quantum systems.</h1>
+      <h1>Engineering coherence in solid-state quantum systems</h1>
       <p class="lab-hero-lead">
-        We combine superconducting circuits, nanomechanical devices, and quantum defects to build new tools for quantum sensing, information processing, and coherent interfaces.
+        <strong>Welcome to the Zhang Hybrid Quantum Systems Lab!</strong><br>
+        We combine superconducting circuits, nanomechanics, and quantum defects to build new tools for quantum sensing and quantum information processing.
       </p>
       <div class="lab-hero-actions">
         <a class="btn btn-lab-primary" href="{{ '/research' | relative_url }}">Explore our research <i class="fas fa-arrow-right ml-2"></i></a>
@@ -25,6 +26,23 @@ container_class: container-xl
         <div class="system-node system-node-a">Circuits</div>
         <div class="system-node system-node-b">Mechanics</div>
         <div class="system-node system-node-c">Defects</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="lab-principles home-section">
+  <div class="row align-items-center">
+    <div class="col-lg-5">
+      <div class="section-eyebrow">How we work</div>
+      <h2>Across platforms.<br>Down to mechanisms.</h2>
+    </div>
+    <div class="col-lg-7 mt-4 mt-lg-0">
+      <p>
+        Our group works at the boundary of physics, electrical engineering, and materials science. We connect device design, nanofabrication, low-temperature measurement, and microscopic materials characterization to understand—and ultimately engineer—the limits of quantum coherence.
+      </p>
+      <div class="method-list">
+        <span>Quantum devices</span><span>Nanofabrication</span><span>Microwave control</span><span>Cryogenic measurement</span><span>Materials physics</span>
       </div>
     </div>
   </div>
@@ -72,23 +90,6 @@ container_class: container-xl
   </div>
 </section>
 
-<section class="lab-principles home-section">
-  <div class="row align-items-center">
-    <div class="col-lg-5">
-      <div class="section-eyebrow">How we work</div>
-      <h2>Across platforms.<br>Down to mechanisms.</h2>
-    </div>
-    <div class="col-lg-7 mt-4 mt-lg-0">
-      <p>
-        Our group works at the boundary of physics, electrical engineering, and materials science. We connect device design, nanofabrication, low-temperature measurement, and microscopic materials characterization to understand—and ultimately engineer—the limits of quantum coherence.
-      </p>
-      <div class="method-list">
-        <span>Quantum devices</span><span>Nanofabrication</span><span>Microwave control</span><span>Cryogenic measurement</span><span>Materials physics</span>
-      </div>
-    </div>
-  </div>
-</section>
-
 <div class="row home-lower-grid">
   <div class="col-lg-8">
     {% assign count_news = site.news | size %}
@@ -105,17 +106,3 @@ container_class: container-xl
     </aside>
   </div>
 </div>
-
-<section class="pi-strip home-section">
-  <div class="row align-items-center">
-    <div class="col-md-auto text-center text-md-left">
-      <img src="{{ site.data.profile.portrait_url | relative_url }}" alt="Zihuai Zhang">
-    </div>
-    <div class="col-md mt-4 mt-md-0">
-      <div class="section-eyebrow">Principal investigator</div>
-      <h2>Zihuai Zhang</h2>
-      <p>Assistant Professor of Physics at Colorado School of Mines. Zihuai leads the group’s work on hybrid solid-state quantum systems.</p>
-      <a href="{{ '/people' | relative_url }}">Meet the group <i class="fas fa-arrow-right ml-1"></i></a>
-    </div>
-  </div>
-</section>
