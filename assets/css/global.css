@@ -923,6 +923,11 @@ a:hover {
   margin-bottom: 4rem;
 }
 
+.people-section > .section-heading-row h2 {
+  font-size: 1.45rem;
+  letter-spacing: -0.015em;
+}
+
 .people-card {
   padding: clamp(1.5rem, 4vw, 3rem);
 }
