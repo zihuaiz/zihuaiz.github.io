@@ -22,32 +22,28 @@ container_class: container-xl
     </div>
     <div class="col-lg-5 mt-5 mt-lg-0">
       <div class="lab-system-map" aria-label="Our research platforms">
-        <div class="system-line system-line-a" aria-hidden="true"></div>
-        <div class="system-line system-line-b" aria-hidden="true"></div>
-        <div class="system-line system-line-c" aria-hidden="true"></div>
-        <div class="system-node system-node-main">Hybrid<br>quantum<br>systems</div>
-        <div class="system-node system-node-a">Circuits</div>
-        <div class="system-node system-node-b">Mechanics</div>
-        <div class="system-node system-node-c">Defects</div>
+        <div class="lab-system-map-inner">
+          <div class="system-line system-line-a" aria-hidden="true"></div>
+          <div class="system-line system-line-b" aria-hidden="true"></div>
+          <div class="system-line system-line-c" aria-hidden="true"></div>
+          <div class="system-node system-node-main">Hybrid<br>quantum<br>systems</div>
+          <div class="system-node system-node-a">Circuits</div>
+          <div class="system-node system-node-b">Mechanics</div>
+          <div class="system-node system-node-c">Defects</div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <section class="lab-principles home-section">
-  <div class="row align-items-center">
-    <div class="col-lg-5">
-      <div class="section-eyebrow">How we work</div>
-      <h2>Across platforms.<br>Down to mechanisms.</h2>
-    </div>
-    <div class="col-lg-7 mt-4 mt-lg-0">
-      <p>
-        Our group works at the boundary of physics, electrical engineering, and materials science. We connect device design, nanofabrication, low-temperature measurement, and microscopic materials characterization to understand—and ultimately engineer—the limits of quantum coherence.
-      </p>
-      <div class="method-list">
-        <span>Quantum devices</span><span>Nanofabrication</span><span>Microwave control</span><span>Cryogenic measurement</span><span>Materials science</span>
-      </div>
-    </div>
+  <div class="section-eyebrow">How we work</div>
+  <h2>Across platforms, down to mechanisms</h2>
+  <p>
+    Our group works at the boundary of physics, electrical engineering, and materials science. We connect device design, nanofabrication, low-temperature measurement, and microscopic materials characterization to understand—and ultimately engineer—the limits of quantum coherence.
+  </p>
+  <div class="method-list">
+    <span>Quantum devices</span><span>Nanofabrication</span><span>Microwave control</span><span>Cryogenic measurement</span><span>Materials science</span>
   </div>
 </section>
 
@@ -90,19 +86,9 @@ container_class: container-xl
   </div>
 </section>
 
-<div class="row home-lower-grid">
-  <div class="col-lg-8">
-    {% assign count_news = site.news | size %}
-    {% if count_news > 0 %}
-      {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
-    {% endif %}
-  </div>
-  <div class="col-lg-4">
-    <aside class="join-card">
-      <div class="section-eyebrow">Join us</div>
-      <h2>Help build what comes next.</h2>
-      <p>We are recruiting PhD students for Spring and Fall 2027 and welcome inquiries from Mines undergraduate and MS students.</p>
-      <a href="{{ '/opportunities' | relative_url }}">View opportunities <i class="fas fa-arrow-right ml-1"></i></a>
-    </aside>
-  </div>
+<div class="home-lower-grid">
+  {% assign count_news = site.news | size %}
+  {% if count_news > 0 %}
+    {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
+  {% endif %}
 </div>
