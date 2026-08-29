@@ -882,7 +882,7 @@ a:hover {
 }
 
 .page-intro {
-  max-width: 900px;
+  max-width: 1100px;
   padding: clamp(2.75rem, 4vw, 4rem) 0 2.25rem;
 }
 
@@ -897,7 +897,7 @@ a:hover {
 }
 
 .page-intro p {
-  max-width: 780px;
+  max-width: 1050px;
   color: var(--lab-muted);
   font-size: 1.2rem;
   line-height: 1.7;
@@ -989,7 +989,7 @@ a:hover {
 }
 
 .opportunities-page .opportunities-hero {
-  max-width: 940px;
+  max-width: 1100px;
 }
 
 .opportunities-page .opportunity-status,
