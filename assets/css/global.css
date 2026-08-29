@@ -526,10 +526,14 @@ a:hover {
   margin: 1rem 0 1.35rem;
   color: #fff;
   font-family: "Source Sans 3", sans-serif;
-  font-size: clamp(2.3rem, 4.8vw, 4.2rem);
+  font-size: clamp(2.2rem, 4.2vw, 3.75rem);
   font-weight: 600;
   letter-spacing: -0.035em;
   line-height: 1.03;
+}
+
+.hero-title-line {
+  display: block;
 }
 
 .lab-hero-lead {
@@ -581,6 +585,17 @@ a:hover {
   width: min(100%, 380px);
   height: 340px;
   margin: auto;
+}
+
+@media (min-width: 992px) {
+  .hero-title-line {
+    white-space: nowrap;
+  }
+
+  .lab-system-map {
+    margin-left: -1rem;
+    margin-right: auto;
+  }
 }
 
 .system-line {
