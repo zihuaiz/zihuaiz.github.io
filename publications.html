@@ -8,6 +8,12 @@ body_attr: >-
 
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
+<header class="page-intro publication-intro">
+    <div class="section-eyebrow">Publications</div>
+    <h1>Selected work from the group.</h1>
+    <p>Research spanning quantum defects, nanomechanics, superconducting devices, and hybrid quantum architectures.</p>
+</header>
+
 <div class="row publications-page">
     <div class="col-12 col-lg-10">
         {% for year in pubs_by_year %}

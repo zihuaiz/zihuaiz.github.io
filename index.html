@@ -1,26 +1,121 @@
 ---
 layout: default
-title : Homepage
+title: Zhang Hybrid Quantum Systems Lab
+meta_title: Zhang Hybrid Quantum Systems Lab
 navbar_title: Home
+container_class: container-xl
 ---
-{% include widgets/profile_card.html %}
 
-{% if site.data.display.homepage.show_experience %}
-    {% include widgets/experience_card.html %}
-{% endif %}
+<section class="lab-hero">
+  <div class="row align-items-center">
+    <div class="col-lg-7">
+      <div class="lab-kicker">Colorado School of Mines · Department of Physics</div>
+      <h1>Engineering coherence in solid-state quantum systems.</h1>
+      <p class="lab-hero-lead">
+        We combine superconducting circuits, nanomechanical devices, and quantum defects to build new tools for quantum sensing, information processing, and coherent interfaces.
+      </p>
+      <div class="lab-hero-actions">
+        <a class="btn btn-lab-primary" href="{{ '/research' | relative_url }}">Explore our research <i class="fas fa-arrow-right ml-2"></i></a>
+        <a class="btn btn-lab-secondary" href="{{ '/opportunities' | relative_url }}">Join the group</a>
+      </div>
+    </div>
+    <div class="col-lg-5 mt-5 mt-lg-0">
+      <div class="lab-system-map" aria-label="Our research platforms">
+        <div class="system-node system-node-main">Hybrid<br>quantum<br>systems</div>
+        <div class="system-node system-node-a">Circuits</div>
+        <div class="system-node system-node-b">Mechanics</div>
+        <div class="system-node system-node-c">Defects</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-{% if site.data.display.homepage.show_news %}
+<section class="home-section">
+  <div class="section-heading-row">
+    <div>
+      <div class="section-eyebrow">What we study</div>
+      <h2>Research directions</h2>
+    </div>
+    <a class="section-link" href="{{ '/research' | relative_url }}">View all research <i class="fas fa-arrow-right ml-1"></i></a>
+  </div>
+  <div class="row research-preview-grid">
+    <div class="col-md-4 mb-4">
+      <a class="research-preview-card" href="{{ '/research' | relative_url }}">
+        <img src="{{ '/assets/images/research/HighImpedance.png' | relative_url }}" alt="Superconducting quantum circuit">
+        <div class="research-preview-content">
+          <div class="research-number">01</div>
+          <h3>Hybrid Quantum Architectures</h3>
+          <p>Coherent control and information transfer across superconducting, spin, and mechanical platforms.</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 mb-4">
+      <a class="research-preview-card" href="{{ '/research' | relative_url }}">
+        <img src="{{ '/assets/images/research/Transducer.png' | relative_url }}" alt="Quantum nanomechanical device">
+        <div class="research-preview-content">
+          <div class="research-number">02</div>
+          <h3>Quantum Nanomechanics</h3>
+          <p>Mechanical systems in the quantum regime for transduction, sensing, and hybrid interfaces.</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 mb-4">
+      <a class="research-preview-card" href="{{ '/research' | relative_url }}">
+        <img src="{{ '/assets/images/research/BulkDefects.png' | relative_url }}" alt="Defects in a solid-state material">
+        <div class="research-preview-content">
+          <div class="research-number">03</div>
+          <h3>Quantum Defect Spectroscopy</h3>
+          <p>Microscopic origins of loss and noise in superconducting and nanomechanical devices.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="lab-principles home-section">
+  <div class="row align-items-center">
+    <div class="col-lg-5">
+      <div class="section-eyebrow">How we work</div>
+      <h2>Across platforms.<br>Down to mechanisms.</h2>
+    </div>
+    <div class="col-lg-7 mt-4 mt-lg-0">
+      <p>
+        Our group works at the boundary of physics, electrical engineering, and materials science. We connect device design, nanofabrication, low-temperature measurement, and microscopic materials characterization to understand—and ultimately engineer—the limits of quantum coherence.
+      </p>
+      <div class="method-list">
+        <span>Quantum devices</span><span>Nanofabrication</span><span>Microwave control</span><span>Cryogenic measurement</span><span>Materials physics</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="row home-lower-grid">
+  <div class="col-lg-8">
     {% assign count_news = site.news | size %}
     {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
+      {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
     {% endif %}
-{% endif %}
+  </div>
+  <div class="col-lg-4">
+    <aside class="join-card">
+      <div class="section-eyebrow">Join us</div>
+      <h2>Help build what comes next.</h2>
+      <p>We are recruiting PhD students for Spring and Fall 2027 and welcome inquiries from Mines undergraduate and MS students.</p>
+      <a href="{{ '/opportunities' | relative_url }}">View opportunities <i class="fas fa-arrow-right ml-1"></i></a>
+    </aside>
+  </div>
+</div>
 
-{% if site.data.display.homepage.show_selected_publications %}
-    {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-    {% 
-        include widgets/publication_card.html 
-        publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
-    %}
-{% endif %}
+<section class="pi-strip home-section">
+  <div class="row align-items-center">
+    <div class="col-md-auto text-center text-md-left">
+      <img src="{{ site.data.profile.portrait_url | relative_url }}" alt="Zihuai Zhang">
+    </div>
+    <div class="col-md mt-4 mt-md-0">
+      <div class="section-eyebrow">Principal investigator</div>
+      <h2>Zihuai Zhang</h2>
+      <p>Assistant Professor of Physics at Colorado School of Mines. Zihuai leads the group’s work on hybrid solid-state quantum systems.</p>
+      <a href="{{ '/people' | relative_url }}">Meet the group <i class="fas fa-arrow-right ml-1"></i></a>
+    </div>
+  </div>
+</section>

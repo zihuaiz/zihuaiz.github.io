@@ -7,8 +7,14 @@ container_class: container-xl
 
 {% assign cards_by_group = site.showcase | sort: "date" | reverse | where: "show", true | group_by_exp: "item", "item.group" %}
 
+<header class="page-intro">
+    <div class="section-eyebrow">Research</div>
+    <h1>Quantum engineering in the solid state.</h1>
+    <p>We study coherence from the microscopic origins of loss to the design of hybrid devices that connect distinct quantum systems.</p>
+</header>
+
 {% for group in cards_by_group %}
-<h1>{{ group.name }}</h1>
+{% if group.name != "" %}<h2 class="research-group-title">{{ group.name }}</h2>{% endif %}
 <div class="row grid mb-4">
     <div class="grid-sizer col-1"></div>
     {% for item in group.items %}

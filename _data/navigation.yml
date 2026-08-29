@@ -5,9 +5,11 @@ pages:
   url: /
 - name: Research
   url: /research
-- name: Teaching
-  url: /teaching
-- name: Opportunities
-  url: /opportunities
+- name: People
+  url: /people
 - name: Publications
   url: /publications
+- name: Teaching
+  url: /teaching
+- name: Join Us
+  url: /opportunities
