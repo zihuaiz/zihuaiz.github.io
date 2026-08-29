@@ -404,6 +404,10 @@ body {
   padding-top: 5.5rem;
 }
 
+body.bg-light {
+  background: #ffffff !important;
+}
+
 a {
   color: var(--lab-blue);
 }
@@ -628,7 +632,7 @@ a:hover {
 .system-node-c { right: 8px; bottom: 10px; }
 
 .home-section {
-  margin-top: clamp(2.75rem, 5vw, 4.5rem);
+  margin-top: clamp(2.5rem, 4vw, 3.75rem);
 }
 
 .section-heading-row {
@@ -717,7 +721,7 @@ a:hover {
 }
 
 .lab-principles {
-  padding: clamp(2.5rem, 5vw, 4.5rem);
+  padding: clamp(2rem, 3vw, 3rem);
   border-top: 1px solid var(--lab-line);
   border-bottom: 1px solid var(--lab-line);
 }
@@ -745,7 +749,7 @@ a:hover {
 }
 
 .home-lower-grid {
-  margin-top: clamp(2.75rem, 5vw, 4.5rem);
+  margin-top: clamp(2.5rem, 4vw, 3.75rem);
 }
 
 .home-lower-grid .news-card {
