@@ -1,0 +1,44 @@
+---
+layout: default
+title: Contact
+navbar_title: Contact
+container_class: container-xl
+---
+
+<div class="contact-page">
+  <header class="page-intro">
+    <div class="section-eyebrow">Contact</div>
+    <h1>Find us at Colorado School of Mines</h1>
+    <p>We are located in the CoorsTek Center for Applied Science and Engineering on the Mines campus in Golden, Colorado.</p>
+  </header>
+
+  <div class="row contact-location-grid">
+    <div class="col-md-6 mb-4">
+      <section class="location-card h-100">
+        <div class="location-icon" aria-hidden="true"><i class="fas fa-user"></i></div>
+        <div class="section-eyebrow">Office</div>
+        <h2>CoorsTek 307</h2>
+        <p>Zihuai Zhang<br>Department of Physics</p>
+        <a href="mailto:{{ site.data.profile.email | encode_email }}"><i class="fas fa-at mr-1"></i>{{ site.data.profile.email | replace: '@', '(at)' }}</a>
+      </section>
+    </div>
+    <div class="col-md-6 mb-4">
+      <section class="location-card h-100">
+        <div class="location-icon" aria-hidden="true"><i class="fas fa-flask"></i></div>
+        <div class="section-eyebrow">Laboratory</div>
+        <h2>CoorsTek 016</h2>
+        <p>Zhang Hybrid Quantum Systems Lab<br>CoorsTek Center for Applied Science and Engineering</p>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&amp;query=CoorsTek+Center+for+Applied+Science+and+Engineering+Golden+Colorado"><i class="fas fa-location-dot mr-1"></i>Open in Google Maps</a>
+      </section>
+    </div>
+  </div>
+
+  <section class="contact-visit-band">
+    <div>
+      <div class="section-eyebrow">Planning a visit?</div>
+      <h2>Please get in touch before stopping by.</h2>
+      <p>For questions about joining the group, research opportunities, and what to include in your message, see our Join Us page.</p>
+    </div>
+    <a class="btn btn-lab-dark" href="{{ '/opportunities' | relative_url }}">View opportunities <i class="fas fa-arrow-right ml-2"></i></a>
+  </section>
+</div>

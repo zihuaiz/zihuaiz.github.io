@@ -13,3 +13,5 @@ pages:
   url: /teaching
 - name: Join Us
   url: /opportunities
+- name: Contact
+  url: /contact

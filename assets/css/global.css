@@ -1115,3 +1115,81 @@ a:hover {
   background: var(--lab-navy);
   color: #fff;
 }
+
+.contact-location-grid {
+  margin-bottom: 2rem;
+}
+
+.location-card {
+  position: relative;
+  padding: clamp(1.75rem, 4vw, 2.75rem);
+  border: 1px solid var(--lab-line);
+  border-top: 4px solid var(--lab-gold);
+  background: var(--lab-white);
+}
+
+.location-icon {
+  position: absolute;
+  top: 1.75rem;
+  right: 1.75rem;
+  display: grid;
+  place-items: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  background: rgba(18, 38, 58, 0.07);
+  color: var(--lab-blue);
+}
+
+.location-card h2,
+.contact-visit-band h2 {
+  margin: 0.45rem 0 0.75rem;
+  color: var(--lab-navy);
+  font-family: "Source Sans 3", sans-serif;
+  font-size: clamp(1.7rem, 3vw, 2.2rem);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.location-card p {
+  color: var(--lab-muted);
+  line-height: 1.7;
+}
+
+.location-card a {
+  font-weight: 700;
+}
+
+.contact-visit-band {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: clamp(2rem, 4vw, 3rem);
+  background: var(--lab-navy);
+  color: rgba(255,255,255,.76);
+}
+
+.contact-visit-band .section-eyebrow {
+  color: #e0bd6a;
+}
+
+.contact-visit-band h2 {
+  color: #fff;
+}
+
+.contact-visit-band p {
+  max-width: 760px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+  .contact-visit-band {
+    display: block;
+  }
+
+  .contact-visit-band .btn {
+    margin-top: 1.25rem;
+  }
+}
