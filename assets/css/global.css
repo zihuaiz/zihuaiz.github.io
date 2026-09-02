@@ -360,6 +360,153 @@ body {
   }
 }
 
+/* Unlisted reading guide */
+.resources-page {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.resources-intro {
+  padding-bottom: 1.4rem;
+}
+
+.resources-intro p {
+  max-width: 900px;
+}
+
+.reading-note {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1.25rem 1.4rem;
+  border-left: 4px solid var(--lab-gold);
+  background: #f7f8f9;
+}
+
+.reading-note-label,
+.reading-type {
+  color: var(--lab-gold-text);
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.reading-note p {
+  margin: 0;
+  color: var(--lab-muted);
+}
+
+.resource-jump-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.resource-jump-links a {
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--lab-line);
+  color: var(--lab-blue);
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.resource-jump-links a:hover {
+  border-color: var(--lab-blue);
+  text-decoration: none;
+}
+
+.resource-section {
+  display: grid;
+  grid-template-columns: minmax(210px, 0.8fr) minmax(0, 2fr);
+  gap: clamp(2rem, 5vw, 4.5rem);
+  padding: 2.5rem 0;
+  border-top: 1px solid var(--lab-line);
+  scroll-margin-top: 6.5rem;
+}
+
+.resource-section-heading {
+  align-self: start;
+}
+
+.resource-area {
+  color: var(--lab-navy);
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.55rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+}
+
+.resource-section-heading p {
+  margin: 0.7rem 0 0;
+  color: var(--lab-muted);
+  line-height: 1.6;
+}
+
+.reading-list {
+  display: grid;
+  gap: 2.25rem;
+}
+
+.reading-entry h2 {
+  margin: 0.35rem 0 0.35rem;
+  font-family: "Fira Sans", sans-serif;
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.reading-entry h2 a {
+  color: var(--lab-navy);
+}
+
+.reading-entry h2 a:hover {
+  color: var(--lab-blue);
+}
+
+.reading-author {
+  margin-bottom: 0.75rem;
+  color: var(--lab-teal);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.reading-entry > p:not(.reading-author) {
+  max-width: 720px;
+  margin-bottom: 0.65rem;
+  color: var(--lab-muted);
+}
+
+.reading-link {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+@media (max-width: 767.98px) {
+  .reading-note,
+  .resource-section {
+    grid-template-columns: 1fr;
+  }
+
+  .reading-note {
+    gap: 0.35rem;
+  }
+
+  .resource-section {
+    gap: 1.35rem;
+    padding: 2rem 0;
+  }
+
+  .resource-jump-links {
+    margin-bottom: 1.5rem;
+  }
+}
+
 .news-title {
   color: #1f2933;
   font-weight: 500;
