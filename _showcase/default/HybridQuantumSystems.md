@@ -27,7 +27,7 @@ date: 2026-05-05 00:01:00 +0800
       <div class="direction-publications">
         <span>Related publications</span>
         <a href="https://doi.org/10.1038/s41567-024-02740-5">Superconducting qubit–phonon coupling <em>Nature Physics</em> (2025)</a>
-        <a href="https://doi.org/10.1038/s41565-025-02066-0">Spin–photon register in silicon <em>Nature Nanotechnology</em> (2026)</a>
+        <a href="https://doi.org/10.48550/arXiv.2605.15554">Interface piezoelectric loss in superconducting qubits (2026)</a>
       </div>
     </div>
 

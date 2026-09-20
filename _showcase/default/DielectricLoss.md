@@ -27,7 +27,7 @@ date: 2026-05-07 00:01:00 +0800
       <div class="direction-publications">
         <span>Related publications</span>
         <a href="https://doi.org/10.1103/PhysRevX.14.041022">Bulk dielectric loss <em>PRX</em> (2024)</a>
-        <a href="https://doi.org/10.1038/s41467-025-67066-z">Interface piezoelectricity <em>Nature Communications</em> (2025)</a>
+        <a href="https://doi.org/10.1038/s41565-025-02066-0">Spin–photon register in silicon <em>Nature Nanotechnology</em> (2026)</a>
       </div>
       
     </div>
