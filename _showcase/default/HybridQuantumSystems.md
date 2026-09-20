@@ -8,7 +8,7 @@ date: 2026-05-05 00:01:00 +0800
   <div class="row align-items-center">
     
     <div class="col-md-4 mb-3 mb-md-0">
-      <img src="{{ '/assets/images/research/HybridSystems.svg' | relative_url }}"
+      <img src="{{ '/assets/images/research/hybrid-avoided-crossing.png' | relative_url }}"
            class="img-fluid rounded-xl research-direction-img"
            alt="Research direction image">
     </div>
