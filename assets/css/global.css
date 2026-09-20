@@ -529,13 +529,13 @@ body {
 
 /* Group-site redesign */
 :root {
-  --lab-navy: #1f2933;
+  --lab-navy: #25282b;
   --lab-blue: #126b96;
   --lab-teal: #126b96;
   --lab-gold: #1681b5;
   --lab-gold-text: #126b96;
   --lab-ink: #25282b;
-  --lab-muted: #5f6972;
+  --lab-muted: #626b73;
   --lab-paper: #ffffff;
   --lab-white: #ffffff;
   --lab-line: #e5e9ec;
@@ -1065,7 +1065,7 @@ a:hover {
   max-width: 1050px;
   margin-bottom: 0;
   color: var(--lab-muted);
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   line-height: 1.7;
 }
 
@@ -1074,7 +1074,7 @@ a:hover {
 }
 
 .people-section > .section-heading-row h2 {
-  font-size: 1.45rem;
+  font-size: 2rem;
   letter-spacing: -0.015em;
 }
 
@@ -1094,7 +1094,7 @@ a:hover {
   margin-bottom: 0.3rem;
   color: var(--lab-navy);
   font-family: "Inter", sans-serif;
-  font-size: 2.15rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -1131,10 +1131,10 @@ a:hover {
 }
 
 .growing-team h2 {
-  margin: 0.45rem 0 0.8rem;
+  margin: 0 0 0.8rem;
   color: #fff;
   font-family: "Inter", sans-serif;
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(1.75rem, 3vw, 2.05rem);
   font-weight: 600;
   letter-spacing: -0.035em;
 }
@@ -1142,7 +1142,7 @@ a:hover {
 .growing-team p {
   max-width: 720px;
   margin-bottom: 0;
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.7;
 }
 
@@ -1181,10 +1181,10 @@ a:hover {
 }
 
 .opportunities-page h2 {
-  margin-top: 0.45rem;
+  margin-top: 0;
   color: var(--lab-navy);
   font-family: "Inter", sans-serif;
-  font-size: 1.65rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -1199,7 +1199,7 @@ a:hover {
   max-width: 850px;
   margin-bottom: 0;
   color: var(--lab-muted);
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.7;
 }
 
@@ -1230,7 +1230,7 @@ a:hover {
   margin: 0.2rem 0 0;
   color: var(--lab-navy);
   font-family: "Inter", sans-serif;
-  font-size: clamp(1.8rem, 3.5vw, 2.45rem);
+  font-size: clamp(1.75rem, 3vw, 2.05rem);
   font-weight: 600;
 }
 
@@ -1238,7 +1238,7 @@ a:hover {
   max-width: 610px;
   margin: 0 0 0.25rem;
   color: var(--lab-muted);
-  font-size: 1.02rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -1257,7 +1257,7 @@ a:hover {
   margin-top: 1rem;
   padding-top: 0.85rem;
   border-top: 1px solid var(--lab-line);
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   line-height: 1.6;
 }
 
@@ -1265,10 +1265,10 @@ a:hover {
   margin: 0 0 0.65rem;
   color: var(--lab-navy);
   font-family: "Inter", sans-serif;
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  letter-spacing: 0.045em;
-  text-transform: uppercase;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 .direction-publications p {
@@ -1302,13 +1302,13 @@ a:hover {
 .representative-work h3 {
   color: var(--lab-navy);
   font-family: "Inter", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
 .past-research-summary p {
   color: var(--lab-muted);
-  font-size: 1.06rem;
+  font-size: 1rem;
   line-height: 1.75;
 }
 
@@ -1385,7 +1385,7 @@ a:hover {
 .research-figure figcaption {
   margin-top: 0.65rem;
   color: var(--lab-muted);
-  font-size: 0.84rem;
+  font-size: 0.9rem;
   line-height: 1.4;
   text-align: center;
 }
@@ -1446,21 +1446,21 @@ a:hover {
 .research-publication-card strong {
   color: var(--lab-navy);
   font-family: "Inter", sans-serif;
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.35;
 }
 
 .research-publication-year,
 .research-publication-theme {
   color: var(--lab-muted);
-  font-size: 0.88rem;
+  font-size: 0.9rem;
 }
 
 .research-publication-year {
   margin-bottom: 0.55rem;
   color: var(--lab-muted);
   font-family: "Inter", sans-serif;
-  font-size: 0.84rem;
+  font-size: 0.9rem;
   font-weight: 500;
   letter-spacing: 0;
 }
@@ -1504,19 +1504,20 @@ a:hover {
 }
 
 .teaching-page .course-card h2 {
-  margin: 0.45rem 0 0.8rem;
+  margin: 0 0 0.8rem;
   color: var(--lab-navy);
   font-family: "Inter", sans-serif;
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 .teaching-page .course-meta {
-  color: var(--lab-teal);
-  font-family: "Source Code Pro", monospace;
-  font-size: 0.78rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  color: var(--lab-muted);
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 .teaching-page .btn-outline-dark {
@@ -1551,7 +1552,7 @@ a:hover {
   margin: 0 0 0.75rem;
   color: var(--lab-navy);
   font-family: "Inter", sans-serif;
-  font-size: clamp(1.7rem, 3vw, 2.2rem);
+  font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: -0.025em;
 }
@@ -1582,7 +1583,7 @@ a:hover {
 .contact-map-heading h2 {
   margin: 0;
   color: var(--lab-navy);
-  font-size: clamp(1.35rem, 2.5vw, 1.8rem);
+  font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: -0.02em;
 }
