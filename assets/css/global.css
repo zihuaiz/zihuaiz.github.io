@@ -1288,9 +1288,8 @@ a:hover {
 .research-direction-img {
   display: block;
   width: 100%;
-  height: 220px !important;
-  object-fit: cover;
-  object-position: center;
+  height: auto !important;
+  object-fit: contain;
   border-radius: 0.15rem !important;
 }
 
