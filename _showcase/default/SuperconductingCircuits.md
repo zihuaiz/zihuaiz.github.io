@@ -20,7 +20,7 @@ date: 2026-05-06 12:00:00 +0800
       </p>
 
       <p>
-      We design circuits and their electromagnetic environments to shape interactions, connectivity, and dissipation. This approach enables new capabilities for quantum control and simulation.
+      We study the materials and microscopic loss mechanisms that limit circuit performance, working closely with theory and materials collaborators. We design circuits that push device parameters and performance into new regimes, and use them for quantum sensing, simulation, and control.
       </p>
 
       <div class="direction-publications">
