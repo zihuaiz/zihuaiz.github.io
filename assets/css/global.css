@@ -1661,3 +1661,95 @@ a:hover {
     margin-top: 1.25rem;
   }
 }
+
+/* Home-page type system: one family, five clear levels, three text colors. */
+.home-page {
+  --home-text: #25282b;
+  --home-muted: #626b73;
+  --home-accent: #126b96;
+  color: var(--home-text);
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+
+.home-page .lab-kicker,
+.home-page .section-eyebrow {
+  color: var(--home-muted);
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.home-page .lab-hero .lab-kicker {
+  color: var(--home-muted);
+  font-size: 0.78rem;
+}
+
+.home-page .lab-hero h1 {
+  margin: 0.9rem 0 1.2rem;
+  color: var(--home-text);
+  font-family: inherit;
+  font-size: clamp(2.65rem, 4.4vw, 3.75rem);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1.04;
+}
+
+.home-page .lab-hero-lead {
+  color: var(--home-muted);
+  font-size: 1.05rem;
+  line-height: 1.72;
+}
+
+.home-page .lab-hero-lead strong {
+  color: var(--home-text);
+  font-weight: 600;
+}
+
+.home-page .btn-lab-primary,
+.home-page .btn-lab-secondary,
+.home-page .section-link {
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.home-page .section-heading-row h2,
+.home-page .home-lower-grid .news-card-title {
+  color: var(--home-text);
+  font-family: inherit;
+  font-size: clamp(1.8rem, 2.5vw, 2.05rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.home-page .research-preview-content h3 {
+  color: var(--home-text);
+  font-family: inherit;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.35;
+}
+
+.home-page .research-preview-content p,
+.home-page .home-lower-grid p {
+  color: var(--home-muted);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.home-page .section-link {
+  color: var(--home-accent);
+}
+
+@media (max-width: 767.98px) {
+  .home-page .lab-hero h1 {
+    font-size: clamp(2.25rem, 11vw, 3rem);
+  }
+
+  .home-page .lab-hero-lead {
+    font-size: 1rem;
+  }
+}
