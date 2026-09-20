@@ -31,6 +31,11 @@ date: 2026-05-06 00:01:00 +0800
           “<a href="https://doi.org/10.48550/arXiv.2407.15387">A Nanomechanical Atomic Force Qubit</a>,”
           <em>arXiv:2407.15387</em> (2024).
         </p>
+        <p>
+          M. Odeh, K. Godeneli, E. Li, R. Tangirala, H. Zhou, X. Zhang, <strong>Z.-H. Zhang</strong>, and A. Sipahigil,
+          “<a href="https://doi.org/10.1038/s41567-024-02740-5">Non-Markovian Dynamics of a Superconducting Qubit in a Phononic Bandgap</a>,”
+          <em>Nature Physics</em> <strong>21</strong>, 406–411 (2025).
+        </p>
       </div>
     </div>
 
