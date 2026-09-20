@@ -387,7 +387,7 @@ body {
 .reading-note-label,
 .reading-type {
   color: var(--lab-gold-text);
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.09em;
@@ -410,7 +410,7 @@ body {
   padding: 0.45rem 0.75rem;
   border: 1px solid var(--lab-line);
   color: var(--lab-blue);
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.88rem;
   font-weight: 600;
 }
@@ -435,7 +435,7 @@ body {
 
 .resource-area {
   color: var(--lab-navy);
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.55rem;
   font-weight: 600;
   letter-spacing: -0.025em;
@@ -455,7 +455,7 @@ body {
 
 .reading-entry h2 {
   margin: 0.35rem 0 0.35rem;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: clamp(1.2rem, 2vw, 1.45rem);
   font-weight: 600;
   line-height: 1.35;
@@ -529,25 +529,25 @@ body {
 
 /* Group-site redesign */
 :root {
-  --lab-navy: #12263a;
-  --lab-blue: #1d4f6e;
-  --lab-teal: #2c7a7b;
-  --lab-gold: #c79a3b;
-  --lab-gold-text: #8b661d;
-  --lab-ink: #17212b;
-  --lab-muted: #5d6975;
+  --lab-navy: #1f2933;
+  --lab-blue: #126b96;
+  --lab-teal: #126b96;
+  --lab-gold: #1681b5;
+  --lab-gold-text: #126b96;
+  --lab-ink: #25282b;
+  --lab-muted: #5f6972;
   --lab-paper: #ffffff;
   --lab-white: #ffffff;
-  --lab-line: rgba(18, 38, 58, 0.13);
+  --lab-line: #e5e9ec;
 }
 
 body {
   color: var(--lab-ink);
   background: var(--lab-paper);
   background-color: #ffffff !important;
-  font-family: "Source Sans 3", sans-serif;
-  font-size: 1.02rem;
-  line-height: 1.6;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
   padding-top: 5.5rem;
 }
 
@@ -565,8 +565,8 @@ a:hover {
 
 .navbar {
   min-height: 4.5rem;
-  background: rgba(255, 253, 248, 0.96) !important;
-  border-bottom: 1px solid var(--lab-line);
+  background: #111416 !important;
+  border-bottom: 0;
   box-shadow: none !important;
 }
 
@@ -574,7 +574,7 @@ a:hover {
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  color: var(--lab-navy) !important;
+  color: #ffffff !important;
   white-space: normal;
 }
 
@@ -585,32 +585,32 @@ a:hover {
   height: 2.15rem;
   flex: 0 0 2.15rem;
   border-radius: 50%;
-  background: var(--lab-navy);
+  background: var(--lab-blue);
   color: var(--lab-white);
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1rem;
   font-weight: 700;
 }
 
 .brand-name {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.05rem;
   font-weight: 700;
   letter-spacing: -0.01em;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #40505e;
-  font-family: "Fira Sans", sans-serif;
+  color: rgba(255,255,255,.78);
+  font-family: "Inter", sans-serif;
   font-size: 0.98rem;
-  font-weight: 700;
+  font-weight: 500;
   padding-right: 0.85rem;
   padding-left: 0.85rem;
 }
 
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: var(--lab-navy);
+  color: #ffffff;
 }
 
 .navbar-light .navbar-nav .active > .nav-link::after {
@@ -619,27 +619,30 @@ a:hover {
   width: 100%;
   height: 2px;
   margin-top: 0.2rem;
-  background: var(--lab-gold);
+  background: #ffffff;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(255,255,255,.35);
+  color: rgba(255,255,255,.9);
 }
 
 .lab-hero {
   position: relative;
   overflow: hidden;
-  margin-top: 1rem;
-  padding: clamp(3rem, 7vw, 6.5rem);
-  border-radius: 0.35rem;
-  background: var(--lab-navy);
-  color: var(--lab-white);
+  margin-top: 0;
+  padding: clamp(3.25rem, 7vw, 6.25rem) 0 clamp(2.75rem, 5vw, 4.5rem);
+  border-bottom: 1px solid var(--lab-line);
+  border-radius: 0;
+  background: #ffffff;
+  color: var(--lab-ink);
 }
 
 .lab-hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  opacity: 0.18;
-  background-image: linear-gradient(rgba(255,255,255,.12) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.12) 1px, transparent 1px);
-  background-size: 42px 42px;
-  mask-image: linear-gradient(to right, transparent 0%, #000 65%);
+  display: none;
 }
 
 .lab-hero .row {
@@ -650,7 +653,7 @@ a:hover {
 .lab-kicker,
 .section-eyebrow {
   color: var(--lab-gold-text);
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -664,14 +667,14 @@ a:hover {
 
 .lab-hero .lab-kicker,
 .growing-team .section-eyebrow {
-  color: #e0bd6a;
+  color: var(--lab-blue);
 }
 
 .lab-hero h1 {
   max-width: 760px;
   margin: 1rem 0 1.35rem;
-  color: #fff;
-  font-family: "Source Sans 3", sans-serif;
+  color: var(--lab-ink);
+  font-family: "Inter", sans-serif;
   font-size: clamp(2.2rem, 4.2vw, 3.75rem);
   font-weight: 600;
   letter-spacing: -0.035em;
@@ -684,8 +687,8 @@ a:hover {
 
 .lab-hero-lead {
   max-width: 680px;
-  color: rgba(255,255,255,.79);
-  font-size: 1.16rem;
+  color: var(--lab-muted);
+  font-size: 1.12rem;
   line-height: 1.7;
 }
 
@@ -698,32 +701,32 @@ a:hover {
 
 .btn-lab-primary,
 .btn-lab-secondary {
-  border-radius: 0.2rem;
-  font-family: "Fira Sans", sans-serif;
+  border-radius: 0.15rem;
+  font-family: "Inter", sans-serif;
   padding: 0.8rem 1.15rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .btn-lab-primary {
-  border-color: var(--lab-gold);
-  background: var(--lab-gold);
-  color: var(--lab-navy);
+  border-color: var(--lab-blue);
+  background: var(--lab-blue);
+  color: #ffffff;
 }
 
 .btn-lab-primary:hover {
-  border-color: #deb760;
-  background: #deb760;
-  color: var(--lab-navy);
+  border-color: #0d587d;
+  background: #0d587d;
+  color: #ffffff;
 }
 
 .btn-lab-secondary {
-  border-color: rgba(255,255,255,.38);
-  color: #fff;
+  border-color: #cfd7dc;
+  color: var(--lab-ink);
 }
 
 .btn-lab-secondary:hover {
-  border-color: #fff;
-  color: #fff;
+  border-color: var(--lab-blue);
+  color: var(--lab-blue);
 }
 
 .lab-system-map {
@@ -756,7 +759,7 @@ a:hover {
   left: 50%;
   z-index: 1;
   height: 1px;
-  background: rgba(255,255,255,.28);
+  background: #a9c7d7;
   transform-origin: left center;
 }
 
@@ -771,11 +774,11 @@ a:hover {
   place-items: center;
   width: 92px;
   height: 92px;
-  border: 1px solid rgba(255,255,255,.45);
+  border: 1px solid #bad2df;
   border-radius: 50%;
-  background: rgba(18,38,58,.86);
-  color: #fff;
-  font-family: "Fira Sans", sans-serif;
+  background: #f2f8fb;
+  color: var(--lab-blue);
+  font-family: "Inter", sans-serif;
   font-size: 0.83rem;
   font-weight: 600;
   text-align: center;
@@ -787,9 +790,9 @@ a:hover {
   z-index: 3;
   width: 138px;
   height: 138px;
-  border-color: var(--lab-gold);
-  background: var(--lab-gold);
-  color: var(--lab-navy);
+  border-color: var(--lab-blue);
+  background: var(--lab-blue);
+  color: #ffffff;
   font-size: 1.08rem;
   transform: translate(-50%, -50%);
 }
@@ -818,7 +821,7 @@ a:hover {
 .people-page h2 {
   margin-top: 0.35rem;
   color: var(--lab-navy);
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   letter-spacing: -0.035em;
 }
@@ -853,8 +856,8 @@ a:hover {
   height: 205px;
   object-fit: contain;
   padding: 0.35rem;
-  background: #f8fafb;
-  border-bottom: 3px solid var(--lab-gold);
+  background: #f6f8f9;
+  border-bottom: 0;
 }
 
 .research-preview-content {
@@ -865,7 +868,7 @@ a:hover {
   min-height: 0;
   margin: 0 0 0.25rem;
   color: var(--lab-navy);
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
 }
@@ -984,13 +987,13 @@ a:hover {
 }
 
 .research-direction-card {
-  border-left: 4px solid var(--lab-gold);
+  border-left: 0;
 }
 
 .research-direction-title,
 .publication-title {
   color: var(--lab-navy) !important;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .publication-year-label {
@@ -1035,7 +1038,7 @@ a:hover {
 .page-intro h1 {
   margin: 0.55rem 0 1rem;
   color: var(--lab-navy);
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: clamp(2rem, 3.5vw, 3.15rem);
   font-weight: 600;
   letter-spacing: -0.035em;
@@ -1074,7 +1077,7 @@ a:hover {
 .people-card h3 {
   margin-bottom: 0.3rem;
   color: var(--lab-navy);
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 2.15rem;
   font-weight: 600;
 }
@@ -1114,7 +1117,7 @@ a:hover {
 .growing-team h2 {
   margin: 0.45rem 0 0.8rem;
   color: #fff;
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 600;
   letter-spacing: -0.035em;
@@ -1164,7 +1167,7 @@ a:hover {
 .opportunities-page h2 {
   margin-top: 0.45rem;
   color: var(--lab-navy);
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.65rem;
   font-weight: 600;
 }
@@ -1190,7 +1193,7 @@ a:hover {
 
 .research-group-title {
   color: var(--lab-navy);
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .research-section {
@@ -1210,7 +1213,7 @@ a:hover {
 .research-section-heading h2 {
   margin: 0.2rem 0 0;
   color: var(--lab-navy);
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: clamp(1.8rem, 3.5vw, 2.45rem);
   font-weight: 600;
 }
@@ -1238,16 +1241,18 @@ a:hover {
   margin-top: 1rem;
   padding-top: 0.85rem;
   border-top: 1px solid var(--lab-line);
-  font-size: 0.94rem;
-  line-height: 1.55;
+  font-size: 0.88rem;
+  line-height: 1.6;
 }
 
 .direction-publications h3 {
   margin: 0 0 0.65rem;
   color: var(--lab-navy);
-  font-family: "Fira Sans", sans-serif;
-  font-size: 0.95rem;
+  font-family: "Inter", sans-serif;
+  font-size: 0.78rem;
   font-weight: 600;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
 }
 
 .direction-publications p {
@@ -1260,13 +1265,16 @@ a:hover {
 }
 
 .direction-publications a {
-  color: var(--lab-teal);
-  font-weight: 500;
+  color: inherit;
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-color: #b9c2c8;
+  text-underline-offset: 0.14em;
 }
 
 .direction-publications a:hover {
-  color: var(--lab-navy);
-  text-decoration: underline;
+  color: var(--lab-blue);
+  text-decoration-color: var(--lab-blue);
 }
 
 .past-research-summary {
@@ -1277,7 +1285,7 @@ a:hover {
 .past-research-summary h3,
 .representative-work h3 {
   color: var(--lab-navy);
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.4rem;
   font-weight: 600;
 }
@@ -1293,37 +1301,71 @@ a:hover {
   margin-bottom: 1.75rem;
 }
 
-.research-image-placeholder {
-  display: flex;
-  min-height: 190px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.45rem;
-  border: 1px dashed #9daab5;
-  border-radius: 0.25rem;
-  background: linear-gradient(135deg, rgba(0, 65, 101, 0.035), rgba(207, 184, 124, 0.12));
-  color: var(--lab-navy);
-  text-align: center;
+.research-figure {
+  height: 100%;
+  margin: 0;
 }
 
-.research-image-placeholder i {
-  margin-bottom: 0.25rem;
-  color: var(--lab-teal);
-  font-size: 1.65rem;
+.research-figure-crop {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
 }
 
-.research-image-placeholder span {
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 600;
+.research-figure-microscopy .research-figure-crop { aspect-ratio: 808 / 548; }
+.research-figure-surface .research-figure-crop { aspect-ratio: 1586 / 1231; }
+.research-figure-entanglement .research-figure-crop { aspect-ratio: 984 / 966; }
+
+.research-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-.research-image-placeholder small {
+.research-figure-microscopy img {
+  width: 100%;
+}
+
+.figure-mask {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  background: #fff;
+}
+
+.research-figure-microscopy .figure-mask-a {
+  top: 0;
+  left: 0;
+  width: 5%;
+  height: 9%;
+}
+
+.research-figure-surface .figure-mask-b {
+  top: 0;
+  left: 0;
+  width: 8%;
+  height: 7%;
+}
+
+.research-figure-surface .figure-mask-c {
+  top: 36%;
+  left: 0;
+  width: 8%;
+  height: 7%;
+}
+
+.research-figure-entanglement .figure-mask-c {
+  top: 4%;
+  left: 0;
+  width: 8%;
+  height: 9%;
+}
+
+.research-figure figcaption {
+  margin-top: 0.65rem;
   color: var(--lab-muted);
-  font-family: "Source Code Pro", monospace;
-  font-size: 0.72rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-size: 0.84rem;
+  line-height: 1.4;
 }
 
 .representative-work {
@@ -1353,7 +1395,7 @@ a:hover {
   flex-direction: column;
   padding: 1.25rem 1.35rem;
   border: 1px solid var(--lab-line);
-  border-left: 3px solid var(--lab-gold);
+  border-left: 1px solid var(--lab-line);
   border-radius: 0.2rem;
   background: var(--lab-white);
   color: inherit;
@@ -1363,13 +1405,14 @@ a:hover {
 .research-publication-card:hover {
   color: inherit;
   text-decoration: none;
-  transform: translateY(-2px);
-  box-shadow: 0 0.45rem 1.25rem rgba(19, 47, 65, 0.1);
+  border-color: #cbd3d8;
+  transform: none;
+  box-shadow: none;
 }
 
 .research-publication-card strong {
   color: var(--lab-navy);
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.05rem;
   line-height: 1.35;
 }
@@ -1430,7 +1473,7 @@ a:hover {
 .teaching-page .course-card h2 {
   margin: 0.45rem 0 0.8rem;
   color: var(--lab-navy);
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: clamp(1.5rem, 3vw, 2rem);
   font-weight: 600;
 }
@@ -1484,7 +1527,7 @@ a:hover {
 .contact-visit-band h2 {
   margin: 0.45rem 0 0.75rem;
   color: var(--lab-navy);
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: clamp(1.7rem, 3vw, 2.2rem);
   font-weight: 600;
   letter-spacing: -0.025em;

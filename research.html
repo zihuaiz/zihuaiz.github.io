@@ -65,25 +65,32 @@ container_class: container-xl
 
     <div class="row research-media-row" aria-label="Image placeholders for past research">
         <div class="col-md-4 mb-3">
-            <div class="research-image-placeholder">
-                <i class="fa-regular fa-image" aria-hidden="true"></i>
-                <span>SiV<sup>0</sup> spectroscopy</span>
-                <small>Image placeholder</small>
-            </div>
+            <figure class="research-figure research-figure-microscopy">
+                <div class="research-figure-crop">
+                    <img src="{{ '/assets/images/research/siv0-microscopy.png' | relative_url }}" alt="Photoluminescence map of individual color centers with an antibunching measurement inset">
+                    <span class="figure-mask figure-mask-a" aria-hidden="true"></span>
+                </div>
+                <figcaption>Optical imaging of individual color centers</figcaption>
+            </figure>
         </div>
         <div class="col-md-4 mb-3">
-            <div class="research-image-placeholder">
-                <i class="fa-regular fa-image" aria-hidden="true"></i>
-                <span>Surface &amp; charge control</span>
-                <small>Image placeholder</small>
-            </div>
+            <figure class="research-figure research-figure-surface">
+                <div class="research-figure-crop">
+                    <img src="{{ '/assets/images/research/surface-control.png' | relative_url }}" alt="Nanostructured diamond surface and optical spectra showing surface control of silicon-vacancy charge state">
+                    <span class="figure-mask figure-mask-b" aria-hidden="true"></span>
+                    <span class="figure-mask figure-mask-c" aria-hidden="true"></span>
+                </div>
+                <figcaption>Surface control of the SiV charge state</figcaption>
+            </figure>
         </div>
         <div class="col-md-4 mb-3">
-            <div class="research-image-placeholder">
-                <i class="fa-regular fa-image" aria-hidden="true"></i>
-                <span>Spin–photon interfaces</span>
-                <small>Image placeholder</small>
-            </div>
+            <figure class="research-figure research-figure-entanglement">
+                <div class="research-figure-crop">
+                    <img src="{{ '/assets/images/research/nuclear-spin-entanglement.png' | relative_url }}" alt="Reconstructed density matrix for an entangled nuclear-spin state">
+                    <span class="figure-mask figure-mask-c" aria-hidden="true"></span>
+                </div>
+                <figcaption>Nuclear-spin entanglement in silicon</figcaption>
+            </figure>
         </div>
     </div>
 
