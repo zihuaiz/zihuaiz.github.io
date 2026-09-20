@@ -1373,7 +1373,7 @@ a:hover {
   background: #fff;
 }
 
-.research-figure-microscopy .research-figure-crop { aspect-ratio: 808 / 548; }
+.research-figure-microscopy .research-figure-crop { aspect-ratio: 816 / 582; }
 .research-figure-surface .research-figure-crop { aspect-ratio: 1586 / 1231; }
 .research-figure-entanglement .research-figure-crop { aspect-ratio: 984 / 966; }
 
@@ -1398,8 +1398,22 @@ a:hover {
 .research-figure-microscopy .figure-mask-a {
   top: 0;
   left: 0;
+  width: 4.5%;
+  height: 7%;
+}
+
+.research-figure-microscopy .figure-mask-b {
+  bottom: 0;
+  left: 0;
   width: 5%;
-  height: 9%;
+  height: 7%;
+}
+
+.research-figure-microscopy .figure-mask-c {
+  right: 43%;
+  bottom: 0;
+  width: 8%;
+  height: 7%;
 }
 
 .research-figure-surface .figure-mask-b {
