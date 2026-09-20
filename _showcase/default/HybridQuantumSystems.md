@@ -14,15 +14,21 @@ date: 2026-05-05 00:01:00 +0800
     </div>
 
     <div class="col-md-9">
-      <h2 class="research-direction-title">Hybrid Quantum Architectures</h2>
+      <h2 class="research-direction-title">Superconducting &amp; Hybrid Quantum Architectures</h2>
 
       <p>
-      Different quantum platforms offer complementary capabilities, ranging from fast quantum control to long-lived coherence and coherent interfacing between distinct physical systems.
+      Superconducting quantum circuits provide a versatile platform for fast control, engineered interactions, and sensitive measurements. Other quantum systems offer complementary capabilities, from long-lived coherence to coherent conversion between distinct physical degrees of freedom.
       </p>
 
       <p>
-      Our group investigates hybrid architectures based on superconducting circuits, spins, and nanomechanical systems. We explore novel circuit elements, coupling schemes, and engineered interactions for coherent quantum control, transduction, and information transfer across different quantum platforms.
+      Our group develops superconducting circuits and hybrid architectures that couple them to spins and nanomechanical systems. We explore novel circuit elements, coupling schemes, and engineered interactions for coherent quantum control, transduction, and information transfer across quantum platforms.
       </p>
+
+      <div class="direction-publications">
+        <span>Related publications</span>
+        <a href="https://doi.org/10.1038/s41567-024-02740-5">Superconducting qubit–phonon coupling <em>Nature Physics</em> (2025)</a>
+        <a href="https://doi.org/10.1038/s41565-025-02066-0">Spin–photon register in silicon <em>Nature Nanotechnology</em> (2026)</a>
+      </div>
     </div>
 
   </div>

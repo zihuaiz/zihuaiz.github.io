@@ -13,6 +13,15 @@ container_class: container-xl
     <p>We study quantum coherence in the solid state, from the microscopic mechanisms of loss and decoherence to the design of hybrid quantum systems that connect distinct quantum degrees of freedom.</p>
 </header>
 
+<section class="research-section" aria-labelledby="current-research">
+<div class="research-section-heading">
+    <div>
+        <div class="section-eyebrow">What we are building now</div>
+        <h2 id="current-research">Current Research</h2>
+    </div>
+    <p>Our current program brings together superconducting quantum circuits, materials-sensitive measurements, nanomechanics, and hybrid quantum interfaces.</p>
+</div>
+
 {% for group in cards_by_group %}
 {% if group.name != "" %}<h2 class="research-group-title">{{ group.name }}</h2>{% endif %}
 <div class="row grid mb-4">
@@ -36,3 +45,82 @@ container_class: container-xl
     {% endfor %}
 </div>
 {% endfor %}
+</section>
+
+<section class="research-section past-research" aria-labelledby="past-research">
+    <div class="research-section-heading">
+        <div>
+            <div class="section-eyebrow">Prior expertise</div>
+            <h2 id="past-research">Past Research</h2>
+        </div>
+        <p>Color centers and solid-state spin defects provided the foundation for our approach to coherence, materials, and quantum interfaces.</p>
+    </div>
+
+    <div class="past-research-summary">
+        <h3>Color centers and solid-state spin defects</h3>
+        <p>
+            Earlier work focused on engineering optically active spin defects for quantum information and networking. A major theme was the neutral silicon-vacancy center (SiV<sup>0</sup>) in diamond: stabilizing its charge state and optical transitions, resolving its bound-exciton structure, and developing optical and microwave methods for spin initialization, coherent control, and readout. Related studies examined photoactivated carrier transport and surface control in diamond, telecom-band emitters, new long-lived diamond defects, and—more recently—spin–photon interfaces and nuclear-spin registers based on defects in silicon.
+        </p>
+    </div>
+
+    <div class="row research-media-row" aria-label="Image placeholders for past research">
+        <div class="col-md-4 mb-3">
+            <div class="research-image-placeholder">
+                <i class="fa-regular fa-image" aria-hidden="true"></i>
+                <span>SiV<sup>0</sup> spectroscopy</span>
+                <small>Image placeholder</small>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="research-image-placeholder">
+                <i class="fa-regular fa-image" aria-hidden="true"></i>
+                <span>Surface &amp; charge control</span>
+                <small>Image placeholder</small>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="research-image-placeholder">
+                <i class="fa-regular fa-image" aria-hidden="true"></i>
+                <span>Spin–photon interfaces</span>
+                <small>Image placeholder</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="representative-work">
+        <div class="representative-work-heading">
+            <h3>Representative work</h3>
+            <a href="{{ '/publications' | relative_url }}">View all publications <span aria-hidden="true">&rarr;</span></a>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 mb-3">
+                <a class="research-publication-card" href="https://www.science.org/doi/10.1126/science.aao0290">
+                    <span class="research-publication-year">2018 · Science</span>
+                    <strong>Observation of an environmentally insensitive solid-state spin defect in diamond</strong>
+                    <span class="research-publication-theme">Materials engineering &amp; long-lived SiV<sup>0</sup> spins</span>
+                </a>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <a class="research-publication-card" href="https://doi.org/10.1103/PhysRevLett.125.237402">
+                    <span class="research-publication-year">2020 · Physical Review Letters</span>
+                    <strong>Optically detected magnetic resonance in SiV<sup>0</sup> via bound exciton states</strong>
+                    <span class="research-publication-theme">Optical spectroscopy &amp; coherent spin control</span>
+                </a>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <a class="research-publication-card" href="https://doi.org/10.1103/PhysRevLett.130.166902">
+                    <span class="research-publication-year">2023 · Physical Review Letters</span>
+                    <strong>Neutral silicon vacancy centers in undoped diamond via surface control</strong>
+                    <span class="research-publication-theme">Charge-state &amp; surface engineering</span>
+                </a>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <a class="research-publication-card" href="https://doi.org/10.1038/s41565-025-02066-0">
+                    <span class="research-publication-year">2026 · Nature Nanotechnology</span>
+                    <strong>Entanglement of a nuclear spin qubit register in silicon photonics</strong>
+                    <span class="research-publication-theme">T-center spin–photon interface</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

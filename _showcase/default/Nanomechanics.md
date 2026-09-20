@@ -23,6 +23,12 @@ date: 2026-05-06 00:01:00 +0800
       <p>
       Our research focuses on mechanical systems operating in the quantum regime. We develop superconducting electromechanical devices and borrow concepts from the MEMS community to engineer coherent control, tunability, and coupling in nanomechanical systems. By integrating mechanics with superconducting quantum circuits, we explore new approaches for quantum transduction and hybrid quantum interfacing.
       </p>
+
+      <div class="direction-publications">
+        <span>Related publications</span>
+        <a href="https://doi.org/10.48550/arXiv.2407.15387">A nanomechanical atomic force qubit (2024)</a>
+        <a href="https://doi.org/10.1038/s41567-024-02740-5">Qubit dynamics in a phononic bandgap <em>Nature Physics</em> (2025)</a>
+      </div>
     </div>
 
   </div>

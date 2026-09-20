@@ -23,6 +23,12 @@ date: 2026-05-07 00:01:00 +0800
       <p>
       Our group develops multimodal defect spectroscopy techniques to study microscopic defects in superconducting circuits and nanomechanical devices. By combining low-temperature measurements with superconducting and electromechanical platforms, we aim to understand the microscopic origins of decoherence. Ultimately, we seek to move from ensemble measurements toward coherent control of single defects and their interactions with quantum devices.
       </p>
+
+      <div class="direction-publications">
+        <span>Related publications</span>
+        <a href="https://doi.org/10.1103/PhysRevX.14.041022">Bulk dielectric loss <em>PRX</em> (2024)</a>
+        <a href="https://doi.org/10.1038/s41467-025-67066-z">Interface piezoelectricity <em>Nature Communications</em> (2025)</a>
+      </div>
       
     </div>
 
