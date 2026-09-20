@@ -1272,6 +1272,10 @@ a:hover {
   padding: 0.75rem !important;
 }
 
+.research-direction-card .col-md-9 > p {
+  color: var(--lab-muted);
+}
+
 .research-direction-img {
   width: 100%;
   min-height: 180px;
