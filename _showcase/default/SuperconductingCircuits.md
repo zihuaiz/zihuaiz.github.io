@@ -16,11 +16,11 @@ date: 2026-05-06 12:00:00 +0800
       <h2 class="research-direction-title">Superconducting Circuits</h2>
 
       <p>
-      Superconducting circuits combine strong interactions, fast control, and precise microwave measurement in a highly engineerable quantum platform.
+      Superconducting circuits offer fast control and strong, tunable interactions in a solid-state platform.
       </p>
 
       <p>
-      We design circuits and electromagnetic environments for quantum control, simulation, and measurement. By engineering impedance, connectivity, and dissipation, we aim to create new interactions and more capable superconducting quantum devices.
+      We design circuits and their electromagnetic environments to shape interactions, connectivity, and dissipation. This approach enables new capabilities for quantum control and simulation.
       </p>
 
       <div class="direction-publications">
