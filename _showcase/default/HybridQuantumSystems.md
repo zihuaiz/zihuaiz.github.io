@@ -25,9 +25,17 @@ date: 2026-05-05 00:01:00 +0800
       </p>
 
       <div class="direction-publications">
-        <span>Related publications</span>
-        <a href="https://doi.org/10.1038/s41567-024-02740-5">Superconducting qubit–phonon coupling <em>Nature Physics</em> (2025)</a>
-        <a href="https://doi.org/10.48550/arXiv.2605.15554">Interface piezoelectric loss in superconducting qubits (2026)</a>
+        <h3>Relevant Publications:</h3>
+        <p>
+          Mutasem Odeh, Kadircan Godeneli, Eric Li, Rohin Tangirala, Haoxin Zhou, Xueyue Zhang, <strong>Zi-Huai Zhang</strong>, and Alp Sipahigil,
+          “<a href="https://doi.org/10.1038/s41567-024-02740-5">Non-Markovian Dynamics of a Superconducting Qubit in a Phononic Bandgap</a>,”
+          <em>Nature Physics</em> <strong>21</strong>, 406–411 (2025).
+        </p>
+        <p>
+          Haoxin Zhou, Kangdi Yu, Yashwanth Balaji, Sanjit Shirol, Leo Sementilli, <strong>Zi-Huai Zhang</strong>, Adam Schwartzberg, and Alp Sipahigil,
+          “<a href="https://doi.org/10.48550/arXiv.2605.15554">Interface Piezoelectric Loss in Superconducting Qubits</a>,”
+          <em>arXiv:2605.15554</em> (2026).
+        </p>
       </div>
     </div>
 

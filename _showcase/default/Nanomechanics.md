@@ -25,9 +25,17 @@ date: 2026-05-06 00:01:00 +0800
       </p>
 
       <div class="direction-publications">
-        <span>Related publications</span>
-        <a href="https://doi.org/10.48550/arXiv.2407.15387">A nanomechanical atomic force qubit (2024)</a>
-        <a href="https://doi.org/10.1038/s41567-024-02740-5">Qubit dynamics in a phononic bandgap <em>Nature Physics</em> (2025)</a>
+        <h3>Relevant Publications:</h3>
+        <p>
+          Shahin Jahanbani, <strong>Zi-Huai Zhang</strong>, Binhan Hua, Kadircan Godeneli, Boris Müllendorff, Xueyue Zhang, Haoxin Zhou, and Alp Sipahigil,
+          “<a href="https://doi.org/10.48550/arXiv.2407.15387">A Nanomechanical Atomic Force Qubit</a>,”
+          <em>arXiv:2407.15387</em> (2024).
+        </p>
+        <p>
+          Mutasem Odeh, Kadircan Godeneli, Eric Li, Rohin Tangirala, Haoxin Zhou, Xueyue Zhang, <strong>Zi-Huai Zhang</strong>, and Alp Sipahigil,
+          “<a href="https://doi.org/10.1038/s41567-024-02740-5">Non-Markovian Dynamics of a Superconducting Qubit in a Phononic Bandgap</a>,”
+          <em>Nature Physics</em> <strong>21</strong>, 406–411 (2025).
+        </p>
       </div>
     </div>
 

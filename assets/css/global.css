@@ -1235,37 +1235,38 @@ a:hover {
 }
 
 .direction-publications {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.45rem 0.7rem;
   margin-top: 1rem;
   padding-top: 0.85rem;
   border-top: 1px solid var(--lab-line);
-  font-size: 0.86rem;
+  font-size: 0.94rem;
+  line-height: 1.55;
 }
 
-.direction-publications > span {
-  color: var(--lab-muted);
-  font-family: "Source Code Pro", monospace;
-  font-size: 0.72rem;
+.direction-publications h3 {
+  margin: 0 0 0.65rem;
+  color: var(--lab-navy);
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.95rem;
   font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+}
+
+.direction-publications p {
+  margin: 0 0 0.7rem;
+  color: var(--lab-muted);
+}
+
+.direction-publications p:last-child {
+  margin-bottom: 0;
 }
 
 .direction-publications a {
-  padding: 0.18rem 0.55rem;
-  border-radius: 1rem;
-  background: rgba(44, 122, 123, 0.08);
   color: var(--lab-teal);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .direction-publications a:hover {
-  background: rgba(44, 122, 123, 0.14);
   color: var(--lab-navy);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .past-research-summary {
