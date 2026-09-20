@@ -8,7 +8,7 @@ date: 2026-05-05 00:01:00 +0800
   <div class="row align-items-center">
     
     <div class="col-md-4 mb-3 mb-md-0">
-      <img src="{{ '/assets/images/research/HighImpedance.png' | relative_url }}"
+      <img src="{{ '/assets/images/research/HybridSystems.svg' | relative_url }}"
            class="img-fluid rounded-xl research-direction-img"
            alt="Research direction image">
     </div>
@@ -17,11 +17,11 @@ date: 2026-05-05 00:01:00 +0800
       <h2 class="research-direction-title">Hybrid Quantum Systems</h2>
 
       <p>
-      Superconducting quantum circuits provide a versatile platform for fast control, engineered interactions, and sensitive measurements. Other quantum systems offer complementary capabilities, from long-lived coherence to coherent conversion between distinct physical degrees of freedom.
+      Different quantum platforms offer complementary capabilities: superconducting circuits provide fast control, spins can retain quantum information, and mechanical systems can connect signals across frequency and length scales.
       </p>
 
       <p>
-      Our group develops superconducting circuits and hybrid architectures that couple them to spins and nanomechanical systems. We explore novel circuit elements, coupling schemes, and engineered interactions for coherent quantum control, transduction, and information transfer across quantum platforms.
+      We develop hybrid systems that couple these degrees of freedom through engineered electromagnetic, mechanical, and material interfaces. Our goal is coherent transduction, sensing, and information transfer across otherwise distinct quantum systems.
       </p>
 
       <div class="direction-publications">

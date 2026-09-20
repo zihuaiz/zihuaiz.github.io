@@ -14,7 +14,7 @@ date: 2026-05-07 00:01:00 +0800
     </div>
 
     <div class="col-md-8">
-      <h2 class="research-direction-title">Quantum Defect Spectroscopy</h2>
+      <h2 class="research-direction-title">Quantum Defects</h2>
 
       <p>
       Quantum defects can be either a source of decoherence or a useful quantum resource. We study how uncontrolled defects cause loss and noise in superconducting circuits and nanomechanical devices, while developing quantum control of selected defects for quantum information processing.
