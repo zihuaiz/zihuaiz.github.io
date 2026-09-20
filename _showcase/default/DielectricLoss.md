@@ -27,11 +27,6 @@ date: 2026-05-07 00:01:00 +0800
       <div class="direction-publications">
         <h3>Relevant Publications:</h3>
         <p>
-          <strong>Z.-H. Zhang</strong>, K. Godeneli, J. He, M. Odeh, H. Zhou, S. Meesala, and A. Sipahigil,
-          “<a href="https://doi.org/10.1103/PhysRevX.14.041022">Acceptor-Induced Bulk Dielectric Loss in Superconducting Circuits on Silicon</a>,”
-          <em>Physical Review X</em> <strong>14</strong>, 041022 (2024).
-        </p>
-        <p>
           H. Song, X. Zhang, L. Komza, N. Fiaschi, Y. Xiong, Y. Zhi, S. Dhuey, A. Schwartzberg, T. Schenkel, G. Hautier, <strong>Z.-H. Zhang</strong>, and A. Sipahigil,
           “<a href="https://doi.org/10.1038/s41565-025-02066-0">Entanglement of a Nuclear Spin Qubit Register in Silicon Photonics</a>,”
           <em>Nature Nanotechnology</em> <strong>21</strong>, 53–57 (2026).
