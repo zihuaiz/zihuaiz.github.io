@@ -14,7 +14,7 @@ date: 2026-05-05 00:01:00 +0800
     </div>
 
     <div class="col-md-8">
-      <h2 class="research-direction-title">Superconducting &amp; Hybrid Quantum Architectures</h2>
+      <h2 class="research-direction-title">Hybrid Quantum Systems</h2>
 
       <p>
       Superconducting quantum circuits provide a versatile platform for fast control, engineered interactions, and sensitive measurements. Other quantum systems offer complementary capabilities, from long-lived coherence to coherent conversion between distinct physical degrees of freedom.
