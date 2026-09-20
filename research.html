@@ -8,7 +8,6 @@ container_class: container-xl
 {% assign cards_by_group = site.showcase | sort: "date" | reverse | where: "show", true | group_by_exp: "item", "item.group" %}
 
 <header class="page-intro">
-    <div class="section-eyebrow">Research</div>
     <h1>Quantum engineering in the solid state</h1>
     <p>We study quantum coherence in the solid state, from the microscopic mechanisms of loss and decoherence to the design of hybrid quantum systems that connect distinct quantum degrees of freedom.</p>
 </header>
@@ -16,7 +15,6 @@ container_class: container-xl
 <section class="research-section" aria-labelledby="current-research">
 <div class="research-section-heading">
     <div>
-        <div class="section-eyebrow">What we are building now</div>
         <h2 id="current-research">Current Research</h2>
     </div>
     <p>Our current program brings together superconducting quantum circuits, materials-sensitive measurements, nanomechanics, and hybrid quantum interfaces.</p>
@@ -50,7 +48,6 @@ container_class: container-xl
 <section class="research-section past-research" aria-labelledby="past-research">
     <div class="research-section-heading">
         <div>
-            <div class="section-eyebrow">Prior expertise</div>
             <h2 id="past-research">Past Research</h2>
         </div>
         <p>Color centers and solid-state spin defects provided the foundation for our approach to coherence, materials, and quantum interfaces.</p>
