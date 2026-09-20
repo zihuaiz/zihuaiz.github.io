@@ -878,6 +878,12 @@ a:hover {
   border-bottom: 0;
 }
 
+.research-preview-card img.research-preview-image-contain {
+  object-fit: contain;
+  padding: 0.8rem;
+  background: #ffffff;
+}
+
 .research-preview-content {
   padding: 1rem 0.15rem 0;
 }
