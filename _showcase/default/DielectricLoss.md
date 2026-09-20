@@ -17,11 +17,11 @@ date: 2026-05-07 00:01:00 +0800
       <h2 class="research-direction-title">Quantum Defect Spectroscopy</h2>
 
       <p>
-      Microscopic material defects are a major source of loss and noise in superconducting circuits and other solid-state quantum devices. Understanding how these defects interact with quantum systems is essential for improving coherence and enabling scalable quantum technologies.
+      Quantum defects can be either a source of decoherence or a useful quantum resource. We study how uncontrolled defects cause loss and noise in superconducting circuits and nanomechanical devices, while developing quantum control of selected defects for quantum information processing.
       </p>
       
       <p>
-      Our group develops multimodal defect spectroscopy techniques to study microscopic defects in superconducting circuits and nanomechanical devices. By combining low-temperature measurements with superconducting and electromechanical platforms, we aim to understand the microscopic origins of decoherence. Ultimately, we seek to move from ensemble measurements toward coherent control of single defects and their interactions with quantum devices.
+      By combining low-temperature measurements with superconducting and electromechanical platforms, we connect ensemble materials measurements to the spectroscopy and coherent control of individual defects. This two-sided approach informs strategies for improving device coherence and for using controlled defects in sensing, information processing, and hybrid quantum interfaces.
       </p>
 
       <div class="direction-publications">
