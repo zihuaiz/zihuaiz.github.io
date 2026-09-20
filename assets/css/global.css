@@ -508,13 +508,14 @@ body {
 }
 
 .news-title {
-  color: #1f2933;
-  font-weight: 500;
+  color: var(--lab-ink);
+  font-weight: 400;
 }
 
 .news-date {
-  color: #475569;
-  font-size: 0.95rem;
+  color: var(--lab-muted);
+  font-size: 0.9rem;
+  font-style: normal;
 }
 
 @media (max-width: 575.98px) {
@@ -965,7 +966,32 @@ a:hover {
 }
 
 .news-year {
-  color: var(--lab-teal);
+  color: var(--lab-muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.home-lower-grid .news-list {
+  color: var(--lab-ink);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.home-lower-grid .news-title a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #c8ced2;
+  text-underline-offset: 0.14em;
+}
+
+.home-lower-grid .news-title a:hover {
+  color: var(--lab-blue);
+  text-decoration-color: var(--lab-blue);
+}
+
+.home-lower-grid .news-title em,
+.home-lower-grid .news-title i {
+  font-style: normal;
 }
 
 .pi-strip {

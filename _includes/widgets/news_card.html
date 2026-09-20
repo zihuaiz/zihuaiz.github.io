@@ -13,7 +13,7 @@
             {% for item in year.items %}
             <div class="news-item my-2 d-flex align-items-start">
                 <div class="news-title pr-3">{{ item.title }}</div>
-                <div class="news-date ml-auto mt-1 no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
+                <div class="news-date ml-auto mt-1 no-break">{{ item.date | date: "%b %d" }}</div>
             </div>
             {% endfor %}
             </div>
