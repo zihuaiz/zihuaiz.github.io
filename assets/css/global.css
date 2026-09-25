@@ -1129,21 +1129,26 @@ a:hover {
 }
 
 .team-member-content {
-  padding: 1.35rem 1.4rem 1.5rem;
+  padding: 1.2rem 1.1rem 1.4rem;
 }
 
 .team-member-content h2 {
   margin: 0 0 0.45rem;
   color: var(--lab-navy);
   font-family: "Inter", sans-serif;
-  font-size: 1.45rem;
+  font-size: 1.22rem;
   font-weight: 600;
   letter-spacing: -0.02em;
 }
 
 .team-member-content .people-affiliation {
   margin-top: 0.25rem;
+  font-size: 0.94rem;
   line-height: 1.55;
+}
+
+.team-member-content .people-role {
+  font-size: 0.94rem;
 }
 
 .people-education {
