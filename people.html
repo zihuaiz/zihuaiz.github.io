@@ -13,7 +13,7 @@ container_class: container-xl
 
   <section class="people-section">
     <div class="row team-grid">
-      <div class="col-sm-6 col-lg-4 d-flex">
+      <div class="col-sm-6 col-lg-3 d-flex">
         <article class="team-member-card">
           <img class="team-member-photo" src="{{ site.data.profile.portrait_url | relative_url }}" alt="Zihuai Zhang">
           <div class="team-member-content">
@@ -34,13 +34,27 @@ container_class: container-xl
         </article>
       </div>
 
-      <div class="col-sm-6 col-lg-4 d-flex">
+      <div class="col-sm-6 col-lg-3 d-flex">
         <article class="team-member-card">
           <img class="team-member-photo" src="{{ '/assets/images/photos/Angelina_Bondarenko.jpg' | relative_url }}" alt="Angelina Bondarenko">
           <div class="team-member-content">
             <h2>Angelina Bondarenko</h2>
             <div class="people-role">Undergraduate Researcher</div>
             <div class="people-affiliation">Electrical Engineering major<br>Quantum Engineering minor</div>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-sm-6 col-lg-3 d-flex">
+        <article class="team-member-card future-member-card">
+          <img class="team-member-photo" src="{{ '/assets/images/photos/future_group_member.jpg' | relative_url }}" alt="An illustrated burro wearing laboratory safety glasses">
+          <div class="team-member-content">
+            <h2>This could be you!</h2>
+            <div class="people-role">Future Group Member</div>
+            <div class="people-affiliation">Interested in quantum science and technology?</div>
+            <div class="people-links">
+              <a href="{{ '/opportunities' | relative_url }}">Explore opportunities</a>
+            </div>
           </div>
         </article>
       </div>
