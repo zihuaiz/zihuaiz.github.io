@@ -1108,6 +1108,58 @@ a:hover {
   margin-bottom: 4rem;
 }
 
+.team-grid {
+  row-gap: 1.5rem;
+}
+
+.team-member-card {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--lab-line);
+  border-radius: 0.25rem;
+  background: #fff;
+}
+
+.team-member-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.team-member-content {
+  padding: 1.35rem 1.4rem 1.5rem;
+}
+
+.team-member-content h2 {
+  margin: 0 0 0.45rem;
+  color: var(--lab-navy);
+  font-family: "Inter", sans-serif;
+  font-size: 1.45rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.team-member-content .people-affiliation {
+  margin-top: 0.25rem;
+  line-height: 1.55;
+}
+
+.people-education {
+  margin-top: 1.15rem;
+}
+
+.people-education p {
+  margin-bottom: 0.8rem;
+  color: var(--lab-muted);
+  line-height: 1.55;
+}
+
+.team-member-content .people-links {
+  margin-top: 1.15rem;
+}
+
 .people-section > .section-heading-row h2 {
   font-size: 2rem;
   letter-spacing: -0.015em;
