@@ -1153,10 +1153,6 @@ a:hover {
   background: var(--lab-white);
 }
 
-.facility-card-featured {
-  border-top: 3px solid var(--lab-blue);
-}
-
 .facility-card-topline {
   display: flex;
   align-items: center;
