@@ -623,6 +623,13 @@ a:hover {
   padding-left: 0.85rem;
 }
 
+@media (min-width: 1200px) {
+  .navbar-light .navbar-nav .nav-link {
+    padding-right: 0.58rem;
+    padding-left: 0.58rem;
+  }
+}
+
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link:hover {
   color: #ffffff;
@@ -1102,6 +1109,162 @@ a:hover {
   color: var(--lab-muted);
   font-size: 1.05rem;
   line-height: 1.7;
+}
+
+.facilities-section {
+  margin: 1.5rem 0 3.5rem;
+}
+
+.facilities-section-heading {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--lab-line);
+}
+
+.facilities-section-heading h2 {
+  margin: 0 0 0.35rem;
+  color: var(--lab-navy);
+  font-family: "Inter", sans-serif;
+  font-size: clamp(1.75rem, 3vw, 2.05rem);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.facilities-section-heading p {
+  margin: 0;
+  color: var(--lab-muted);
+  line-height: 1.6;
+}
+
+.facilities-grid {
+  align-items: stretch;
+}
+
+.facility-card {
+  position: relative;
+  width: 100%;
+  padding: clamp(1.5rem, 3vw, 2rem);
+  border: 1px solid var(--lab-line);
+  border-radius: 0.25rem;
+  background: var(--lab-white);
+}
+
+.facility-card-featured {
+  border-top: 3px solid var(--lab-blue);
+}
+
+.facility-card-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.35rem;
+}
+
+.facility-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  flex: 0 0 2.6rem;
+  border-radius: 50%;
+  background: rgba(18, 107, 150, 0.09);
+  color: var(--lab-blue);
+  font-size: 1.05rem;
+}
+
+.facility-status {
+  display: inline-block;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.facility-status-current {
+  background: #e7f4ee;
+  color: #236347;
+}
+
+.facility-status-expected {
+  background: #e8f2f7;
+  color: var(--lab-blue);
+}
+
+.facility-status-planned {
+  background: #f1f2f3;
+  color: #5e666c;
+}
+
+.facility-card h3 {
+  margin: 0 0 0.8rem;
+  color: var(--lab-navy);
+  font-family: "Inter", sans-serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.facility-card p {
+  color: var(--lab-muted);
+  line-height: 1.7;
+}
+
+.facility-card p:last-child {
+  margin-bottom: 0;
+}
+
+.facility-note {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--lab-line);
+  font-size: 0.94rem;
+}
+
+.facility-note strong {
+  color: var(--lab-ink);
+}
+
+.shared-facility-card .facility-icon {
+  margin-bottom: 1.35rem;
+}
+
+.shared-facility-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.shared-facility-card p {
+  flex-grow: 1;
+}
+
+.facility-link {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+  color: var(--lab-blue);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.facility-link:hover {
+  color: var(--lab-navy);
+  text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+  .facility-card-topline {
+    align-items: flex-start;
+  }
+
+  .facility-status {
+    max-width: 13rem;
+  }
 }
 
 .people-section {
