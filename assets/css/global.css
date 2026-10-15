@@ -1111,6 +1111,10 @@ a:hover {
   line-height: 1.7;
 }
 
+.facilities-page {
+  padding-top: clamp(2.75rem, 4vw, 4rem);
+}
+
 .facilities-section {
   margin: 1.5rem 0 3.5rem;
 }
